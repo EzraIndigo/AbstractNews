@@ -2016,6 +2016,10 @@ var AFFIN = [
             "Rating": "-1"
         },
         {
+            "Word": "coronavirus",
+            "Rating": "-3"
+        },
+        {
             "Word": "costly",
             "Rating": "-2"
         },
@@ -6432,6 +6436,10 @@ var AFFIN = [
             "Rating": "2"
         },
         {
+            "Word": "nobody",
+            "Rating": "-1"
+        },
+        {
             "Word": "noisy",
             "Rating": "-1"
         },
@@ -6689,6 +6697,10 @@ var AFFIN = [
         },
         {
             "Word": "panics",
+            "Rating": "-3"
+        },
+        {
+            "Word": "pandemic",
             "Rating": "-3"
         },
         {
@@ -9888,6 +9900,10 @@ var AFFIN = [
             "Rating": "1"
         },
         {
+            "Word": "year",
+            "Rating": "0"
+        },
+        {
             "Word": "youthful",
             "Rating": "2"
         },
@@ -9908,7 +9924,19 @@ var AFFIN = [
             "Rating": "-2"
         },
         {
-            "Word": "zealous",
-            "Rating": "2"
+            "Word": "oil",
+            "Rating": "-3"
+        },
+        {
+            "Word": "price",
+            "Rating": "0"
+        },
+        {
+            "Word": "low",
+            "Rating": "-1"
+        },
+        {
+            "Word": "turmoil",
+            "Rating": "-3"
         }
     ];

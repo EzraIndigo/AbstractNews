@@ -6,6 +6,7 @@ var url = 'http://newsapi.org/v2/top-headlines?' +
           'apiKey=' + api_key;
 
 var topHeadLines = [];
+var listLoad = false;
 
 const gotNews = (newsData) => {
   newsData.articles.forEach((article) => {
@@ -14,24 +15,49 @@ const gotNews = (newsData) => {
   
   displayNewsHeadlines()
 }
-                          
+
+
+
+
 
 function displayNewsHeadlines() {
   document.getElementById("headlines").innerHTML = "<h2> News Headlines </h2>";
-  for(i = 0; i < topHeadLines.length; i++) {
-    if (i == 0) {document.getElementById("headlines").innerHTML += "<ul id = 'firstElem'>"+ topHeadLines[i] +"</ul>";
-  } else {
-    document.getElementById("headlines").innerHTML += "<ul>"+ topHeadLines[i] +"</ul>";
-    }
-
+  for(i = 0; i < topHeadLines.length-3; i++) {
+    document.getElementById("headlines").innerHTML += "<ul id = list onClick='reload(event)' class = 'news'>"+ topHeadLines[i] +"</ul>";
+    document.getElementById("list").style.color = "rgb(214, 93, 93)";
   }
-  setupWord();
+  document.getElementById("headlines").innerHTML += "<ul id = 'result' class = 'news'>Semantic Score: </ul>";
+  document.getElementById("headlines").innerHTML += "<ul id = 'result-semantic'>Loading...</ul>";
+
+  setupWord(topHeadLines[0]);
+  listLoad = true;
+
 }
-var txt;
+
+function reload(e) {
+  //-------handle list UI Color onclick
+ var listElems =  document.getElementsByClassName("news");
+ for (k = 0; k < listElems.length; k++) {
+   if (listElems[k].style.color == "rgb(214, 93, 93)") {
+    listElems[k].style.color = "black";
+   }
+ }
+ //------------------------------------
+ var elem = e.target || e.srcElement;
+ console.log(elem);
+ elem.style.color = "rgb(214, 93, 93)";
+ setupWord(elem.textContent); //rerun functions below
+}
+
+//var txt;
 var finalWords = []; //final array
 var finalScore = [];
-function setupWord() {
-  txt = topHeadLines[0];
+
+function setupWord(txt) {
+  finalWords =[];
+  finalScore =[]
+  console.log(AFFIN.length);
+//txt = topHeadLines[0];
   var allwords = txt;
   var tokens = allwords.split(/\W+/); //Regex to split up words from setence
 
@@ -39,15 +65,16 @@ function setupWord() {
     var word = removeIllegalChars(tokens[i]); //clean chars before putting into final array
     finalWords.push(word.toLowerCase());
   }
-  console.log(finalWords);
-  for (i = 0; i < finalWords.length; i++) {
-    console.log("word: "+finalWords[i]);
-    var score = getWordScores(finalWords[i]);
+
+  for (k = 0; k < finalWords.length; k++) {
+    var currentWord = finalWords[k];
+    console.log("word: " + currentWord);
+    var score = getWordScores(currentWord);
     console.log("score: " + score);
     finalScore.push(score);
   }
   
-  console.log(finalScore);
+  displayScore(finalScore);
 
 
 }
@@ -58,40 +85,122 @@ function removeIllegalChars(word) {
 
 
 
-function getWordScores(word) { //BROKEN - DOESNT FIND WORD IN SET
-  
-  var hasWord =  false;
-  var index =  AFFIN_Data.indexOf(word);
-  for (i = 0; i < AFFIN_Data.length; i++) {
+function getWordScores(word) { 
+  var rating;
+  for(i = 0; i < AFFIN_Data.length; i++) {
     if (word == AFFIN_Data[i].Word) {
-      hasWord = true;
+      st = AFFIN_Data[i].Rating;
+      rating = parseInt(st);
+      return rating;
     }
-    else { hasWord = false;}
+
+    if (i == AFFIN_Data.length-1) {
+      return 0;
+    }
+  } ///////////////////LOOK INTO WHAT TO DO IF NO WORD MATCH IS FOUND IN AFFIN
+}
+
+
+var semantic_range_set = [
+{
+    "Score": -5,
+    "StringScore": "Extremely Negative"
+},
+  {
+    "Score": -4,
+    "StringScore": "Very Negative"
+},
+{
+    "Score": -3,
+    "StringScore": "Negative"
+},
+{
+    "Score": -2,
+    "StringScore": "Fairly Negative"
+},
+{
+    "Score": -1,
+    "StringScore": "Slightly Negative"
+},
+
+{
+  "Score": 0,
+  "StringScore": "Neutral"
+},
+{
+  "Score": 1,
+  "StringScore": "Slightly Positive"
+}, 
+{ 
+  "Score": 2,
+  "StringScore": "Fairly Positive"
+
+}, 
+{
+  "Score": 3,
+  "StringScore": "Positive"
+},
+{
+  "Score": 4,
+  "StringScore": "Very Positive"
+},
+{
+  "Score": 5,
+  "StringScore": "Super Positive"
+},
+{
+  "Score": 6,
+  "StringScore": "Undoubtly Positive"
+}
+
+];
+
+function displayScore(finalScore) {
+  var score = 0;
+  console.log(finalScore);
+  for(i = 0; i < finalScore.length; i++) {
+    score = score + finalScore[i];
   }
-  if (hasWord) {
-    var index =  AFFIN_Data.indexOf(word); //FIX
-    var rating = AFFIN_Datap[index].Rating;
-    return parseInt(rating);
-  } else {
-    console.log("Word Not Found In AFFIN Data");
-    return 0;
+  var StringScore;
+  for (k = 0; k < semantic_range_set.length; k++) {
+    if (score == semantic_range_set[k].Score){
+      document.getElementById("result-semantic").innerHTML = semantic_range_set[k].StringScore + "(" + score + ")"
+    }
+    if (score > 6) {
+      document.getElementById("result-semantic").innerHTML = "Very Positive!(+6)";
+    }
+    if (score < -6) {
+      document.getElementById("result-semantic").innerHTML = "Very Negative!(-6)";
+    }
   }
+  //document.getElementById("result-semantic").innerHTML = score;
+}
+
+function displayWordBreakdown() {
 
 }
 
+
+
+
 function setup() {
+
+  createCanvas(500, 500);
   var canvasID = document.getElementById("defaultCanvas0");
   var wrapper = document.createElement('div');
+  wrapper.id = "canvasWrapper";
 
   canvasID.parentNode.insertBefore(wrapper, canvasID);
   wrapper.appendChild(canvasID);
-  createCanvas(500, 500);
+
+
 }
 
 function draw() {
-    background(210);
+    background(230);
 }
 
 fetch(url)
   .then(response => response.json())
   .then(gotNews)
+
