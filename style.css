@@ -55,7 +55,7 @@ h2 {
   position: absolute;
   width: 1000px;
   height: 430px;
-  top: 690px;
+  top: 695px;
   left: 25px;
   background-color: rgb(247, 247, 247);
   -webkit-box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.3); 
@@ -67,13 +67,15 @@ h2 {
   overflow: auto;
   list-style-type: none;
   padding: 3px;
+  top: 75px;
   position: absolute;
   margin-left: 5%;
 
 }
 
-#word-info h2 {
-  margin-left: -2%;
+#word-info a {
+  position: absolute;
+  left: 300px;
 }
 
 #word-info li {
@@ -94,8 +96,8 @@ h2 {
   padding: 3px;
   position: absolute;
   margin-left: 5%;
-  top: 70px;
-  left: 150px;
+  top: 75px;
+  left: 125px;
 
 }
 
@@ -117,8 +119,8 @@ h2 {
   padding: 3px;
   position: absolute;
   margin-left: 5%;
-  top: 70px;
-  left: 250px;
+  top: 75px;
+  left: 220px;
 }
 
 #word-color-info li {
@@ -132,6 +134,26 @@ h2 {
   margin-left: -2%;
 }
 
+#mlScore {
+  max-width: 500px;
+  overflow: auto;
+  list-style-type: none;
+  padding: 3px;
+  position: absolute;
+  margin-left: 5%;
+  top: 75px;
+  left: 320px;
+}
+
+
+#longword {
+  position: absolute;
+  margin-top: -2%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  padding: 1px;
+
+}
 
 
 ul {
