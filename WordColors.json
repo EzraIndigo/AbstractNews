@@ -1,0 +1,2986 @@
+[
+ {
+   "Word": "air force blue",
+   "ColorHex": "#5d8aa8"
+ },
+ {
+   "Word": "alice blue",
+   "ColorHex": "#f0f8ff"
+ },
+ {
+   "Word": "alizarin crimson",
+   "ColorHex": "#e32636"
+ },
+ {
+   "Word": "almond",
+   "ColorHex": "#efdecd"
+ },
+ {
+   "Word": "amaranth",
+   "ColorHex": "#e52b50"
+ },
+ {
+   "Word": "amber",
+   "ColorHex": "#ffbf00"
+ },
+ {
+   "Word": "american rose",
+   "ColorHex": "#ff033e"
+ },
+ {
+   "Word": "amethyst",
+   "ColorHex": "#9966cc"
+ },
+ {
+   "Word": "android green",
+   "ColorHex": "#a4c639"
+ },
+ {
+   "Word": "anti-flash white",
+   "ColorHex": "#f2f3f4"
+ },
+ {
+   "Word": "antique brass",
+   "ColorHex": "#cd9575"
+ },
+ {
+   "Word": "antique fuchsia",
+   "ColorHex": "#915c83"
+ },
+ {
+   "Word": "antique white",
+   "ColorHex": "#faebd7"
+ },
+ {
+   "Word": "ao",
+   "ColorHex": "#008000"
+ },
+ {
+   "Word": "apple green",
+   "ColorHex": "#8db600"
+ },
+ {
+   "Word": "apricot",
+   "ColorHex": "#fbceb1"
+ },
+ {
+   "Word": "aqua",
+   "ColorHex": "#00ffff"
+ },
+ {
+   "Word": "aquamarine",
+   "ColorHex": "#7fffd4"
+ },
+ {
+   "Word": "army green",
+   "ColorHex": "#4b5320"
+ },
+ {
+   "Word": "arylide yellow",
+   "ColorHex": "#e9d66b"
+ },
+ {
+   "Word": "ash grey",
+   "ColorHex": "#b2beb5"
+ },
+ {
+   "Word": "asparagus",
+   "ColorHex": "#87a96b"
+ },
+ {
+   "Word": "atomic tangerine",
+   "ColorHex": "#ff9966"
+ },
+ {
+   "Word": "auburn",
+   "ColorHex": "#a52a2a"
+ },
+ {
+   "Word": "aureolin",
+   "ColorHex": "#fdee00"
+ },
+ {
+   "Word": "aurometalsaurus",
+   "ColorHex": "#6e7f80"
+ },
+ {
+   "Word": "awesome",
+   "ColorHex": "#ff2052"
+ },
+ {
+   "Word": "azure",
+   "ColorHex": "#007fff"
+ },
+ {
+   "Word": "azure mist/web",
+   "ColorHex": "#f0ffff"
+ },
+ {
+   "Word": "baby blue",
+   "ColorHex": "#89cff0"
+ },
+ {
+   "Word": "baby blue eyes",
+   "ColorHex": "#a1caf1"
+ },
+ {
+   "Word": "baby pink",
+   "ColorHex": "#f4c2c2"
+ },
+ {
+   "Word": "ball blue",
+   "ColorHex": "#21abcd"
+ },
+ {
+   "Word": "banana mania",
+   "ColorHex": "#fae7b5"
+ },
+ {
+   "Word": "banana yellow",
+   "ColorHex": "#ffe135"
+ },
+ {
+   "Word": "battleship grey",
+   "ColorHex": "#848482"
+ },
+ {
+   "Word": "bazaar",
+   "ColorHex": "#98777b"
+ },
+ {
+   "Word": "beau blue",
+   "ColorHex": "#bcd4e6"
+ },
+ {
+   "Word": "beaver",
+   "ColorHex": "#9f8170"
+ },
+ {
+   "Word": "beige",
+   "ColorHex": "#f5f5dc"
+ },
+ {
+   "Word": "bisque",
+   "ColorHex": "#ffe4c4"
+ },
+ {
+   "Word": "bistre",
+   "ColorHex": "#3d2b1f"
+ },
+ {
+   "Word": "bittersweet",
+   "ColorHex": "#fe6f5e"
+ },
+ {
+   "Word": "black",
+   "ColorHex": "#000000"
+ },
+ {
+   "Word": "blanched almond",
+   "ColorHex": "#ffebcd"
+ },
+ {
+   "Word": "bleu de france",
+   "ColorHex": "#318ce7"
+ },
+ {
+   "Word": "blizzard blue",
+   "ColorHex": "#ace5ee"
+ },
+ {
+   "Word": "blond",
+   "ColorHex": "#faf0be"
+ },
+ {
+   "Word": "blue",
+   "ColorHex": "#0000ff"
+ },
+ {
+   "Word": "blue bell",
+   "ColorHex": "#a2a2d0"
+ },
+ {
+   "Word": "blue gray",
+   "ColorHex": "#6699cc"
+ },
+ {
+   "Word": "blue green",
+   "ColorHex": "#0d98ba"
+ },
+ {
+   "Word": "blue purple",
+   "ColorHex": "#8a2be2"
+ },
+ {
+   "Word": "blue violet",
+   "ColorHex": "#8a2be2"
+ },
+ {
+   "Word": "blush",
+   "ColorHex": "#de5d83"
+ },
+ {
+   "Word": "bole",
+   "ColorHex": "#79443b"
+ },
+ {
+   "Word": "bondi blue",
+   "ColorHex": "#0095b6"
+ },
+ {
+   "Word": "bone",
+   "ColorHex": "#e3dac9"
+ },
+ {
+   "Word": "boston university red",
+   "ColorHex": "#cc0000"
+ },
+ {
+   "Word": "bottle green",
+   "ColorHex": "#006a4e"
+ },
+ {
+   "Word": "boysenberry",
+   "ColorHex": "#873260"
+ },
+ {
+   "Word": "brandeis blue",
+   "ColorHex": "#0070ff"
+ },
+ {
+   "Word": "brass",
+   "ColorHex": "#b5a642"
+ },
+ {
+   "Word": "brick red",
+   "ColorHex": "#cb4154"
+ },
+ {
+   "Word": "bright cerulean",
+   "ColorHex": "#1dacd6"
+ },
+ {
+   "Word": "bright green",
+   "ColorHex": "#66ff00"
+ },
+ {
+   "Word": "bright lavender",
+   "ColorHex": "#bf94e4"
+ },
+ {
+   "Word": "bright maroon",
+   "ColorHex": "#c32148"
+ },
+ {
+   "Word": "bright pink",
+   "ColorHex": "#ff007f"
+ },
+ {
+   "Word": "bright turquoise",
+   "ColorHex": "#08e8de"
+ },
+ {
+   "Word": "bright ube",
+   "ColorHex": "#d19fe8"
+ },
+ {
+   "Word": "brilliant lavender",
+   "ColorHex": "#f4bbff"
+ },
+ {
+   "Word": "brilliant rose",
+   "ColorHex": "#ff55a3"
+ },
+ {
+   "Word": "brink pink",
+   "ColorHex": "#fb607f"
+ },
+ {
+   "Word": "british racing green",
+   "ColorHex": "#004225"
+ },
+ {
+   "Word": "bronze",
+   "ColorHex": "#cd7f32"
+ },
+ {
+   "Word": "brown",
+   "ColorHex": "#a52a2a"
+ },
+ {
+   "Word": "bubble gum",
+   "ColorHex": "#ffc1cc"
+ },
+ {
+   "Word": "bubbles",
+   "ColorHex": "#e7feff"
+ },
+ {
+   "Word": "buff",
+   "ColorHex": "#f0dc82"
+ },
+ {
+   "Word": "bulgarian rose",
+   "ColorHex": "#480607"
+ },
+ {
+   "Word": "burgundy",
+   "ColorHex": "#800020"
+ },
+ {
+   "Word": "burlywood",
+   "ColorHex": "#deb887"
+ },
+ {
+   "Word": "burnt orange",
+   "ColorHex": "#cc5500"
+ },
+ {
+   "Word": "burnt sienna",
+   "ColorHex": "#e97451"
+ },
+ {
+   "Word": "burnt umber",
+   "ColorHex": "#8a3324"
+ },
+ {
+   "Word": "byzantine",
+   "ColorHex": "#bd33a4"
+ },
+ {
+   "Word": "byzantium",
+   "ColorHex": "#702963"
+ },
+ {
+   "Word": "cg blue",
+   "ColorHex": "#007aa5"
+ },
+ {
+   "Word": "cg red",
+   "ColorHex": "#e03c31"
+ },
+ {
+   "Word": "cadet",
+   "ColorHex": "#536872"
+ },
+ {
+   "Word": "cadet blue",
+   "ColorHex": "#5f9ea0"
+ },
+ {
+   "Word": "cadet grey",
+   "ColorHex": "#91a3b0"
+ },
+ {
+   "Word": "cadmium green",
+   "ColorHex": "#006b3c"
+ },
+ {
+   "Word": "cadmium orange",
+   "ColorHex": "#ed872d"
+ },
+ {
+   "Word": "cadmium red",
+   "ColorHex": "#e30022"
+ },
+ {
+   "Word": "cadmium yellow",
+   "ColorHex": "#fff600"
+ },
+ {
+   "Word": "caf au lait",
+   "ColorHex": "#a67b5b"
+ },
+ {
+   "Word": "caf noir",
+   "ColorHex": "#4b3621"
+ },
+ {
+   "Word": "cal poly pomona green",
+   "ColorHex": "#1e4d2b"
+ },
+ {
+   "Word": "cambridge blue",
+   "ColorHex": "#a3c1ad"
+ },
+ {
+   "Word": "camel",
+   "ColorHex": "#c19a6b"
+ },
+ {
+   "Word": "camouflage green",
+   "ColorHex": "#78866b"
+ },
+ {
+   "Word": "canary",
+   "ColorHex": "#ffff99"
+ },
+ {
+   "Word": "canary yellow",
+   "ColorHex": "#ffef00"
+ },
+ {
+   "Word": "candy apple red",
+   "ColorHex": "#ff0800"
+ },
+ {
+   "Word": "candy pink",
+   "ColorHex": "#e4717a"
+ },
+ {
+   "Word": "capri",
+   "ColorHex": "#00bfff"
+ },
+ {
+   "Word": "caput mortuum",
+   "ColorHex": "#592720"
+ },
+ {
+   "Word": "cardinal",
+   "ColorHex": "#c41e3a"
+ },
+ {
+   "Word": "caribbean green",
+   "ColorHex": "#00cc99"
+ },
+ {
+   "Word": "carmine",
+   "ColorHex": "#ff0040"
+ },
+ {
+   "Word": "carmine pink",
+   "ColorHex": "#eb4c42"
+ },
+ {
+   "Word": "carmine red",
+   "ColorHex": "#ff0038"
+ },
+ {
+   "Word": "carnation pink",
+   "ColorHex": "#ffa6c9"
+ },
+ {
+   "Word": "carnelian",
+   "ColorHex": "#b31b1b"
+ },
+ {
+   "Word": "carolina blue",
+   "ColorHex": "#99badd"
+ },
+ {
+   "Word": "carrot orange",
+   "ColorHex": "#ed9121"
+ },
+ {
+   "Word": "celadon",
+   "ColorHex": "#ace1af"
+ },
+ {
+   "Word": "celeste",
+   "ColorHex": "#b2ffff"
+ },
+ {
+   "Word": "celestial blue",
+   "ColorHex": "#4997d0"
+ },
+ {
+   "Word": "cerise",
+   "ColorHex": "#de3163"
+ },
+ {
+   "Word": "cerise pink",
+   "ColorHex": "#ec3b83"
+ },
+ {
+   "Word": "cerulean",
+   "ColorHex": "#007ba7"
+ },
+ {
+   "Word": "cerulean blue",
+   "ColorHex": "#2a52be"
+ },
+ {
+   "Word": "chamoisee",
+   "ColorHex": "#a0785a"
+ },
+ {
+   "Word": "champagne",
+   "ColorHex": "#fad6a5"
+ },
+ {
+   "Word": "charcoal",
+   "ColorHex": "#36454f"
+ },
+ {
+   "Word": "chartreuse",
+   "ColorHex": "#7fff00"
+ },
+ {
+   "Word": "cherry",
+   "ColorHex": "#de3163"
+ },
+ {
+   "Word": "cherry blossom pink",
+   "ColorHex": "#ffb7c5"
+ },
+ {
+   "Word": "chestnut",
+   "ColorHex": "#cd5c5c"
+ },
+ {
+   "Word": "chocolate",
+   "ColorHex": "#d2691e"
+ },
+ {
+   "Word": "chrome yellow",
+   "ColorHex": "#ffa700"
+ },
+ {
+   "Word": "cinereous",
+   "ColorHex": "#98817b"
+ },
+ {
+   "Word": "cinnabar",
+   "ColorHex": "#e34234"
+ },
+ {
+   "Word": "cinnamon",
+   "ColorHex": "#d2691e"
+ },
+ {
+   "Word": "citrine",
+   "ColorHex": "#e4d00a"
+ },
+ {
+   "Word": "classic rose",
+   "ColorHex": "#fbcce7"
+ },
+ {
+   "Word": "cobalt",
+   "ColorHex": "#0047ab"
+ },
+ {
+   "Word": "cocoa brown",
+   "ColorHex": "#d2691e"
+ },
+ {
+   "Word": "coffee",
+   "ColorHex": "#6f4e37"
+ },
+ {
+   "Word": "columbia blue",
+   "ColorHex": "#9bddff"
+ },
+ {
+   "Word": "cool black",
+   "ColorHex": "#002e63"
+ },
+ {
+   "Word": "cool grey",
+   "ColorHex": "#8c92ac"
+ },
+ {
+   "Word": "copper",
+   "ColorHex": "#b87333"
+ },
+ {
+   "Word": "copper rose",
+   "ColorHex": "#996666"
+ },
+ {
+   "Word": "coquelicot",
+   "ColorHex": "#ff3800"
+ },
+ {
+   "Word": "coral",
+   "ColorHex": "#ff7f50"
+ },
+ {
+   "Word": "coral pink",
+   "ColorHex": "#f88379"
+ },
+ {
+   "Word": "coral red",
+   "ColorHex": "#ff4040"
+ },
+ {
+   "Word": "cordovan",
+   "ColorHex": "#893f45"
+ },
+ {
+   "Word": "corn",
+   "ColorHex": "#fbec5d"
+ },
+ {
+   "Word": "cornell red",
+   "ColorHex": "#b31b1b"
+ },
+ {
+   "Word": "cornflower",
+   "ColorHex": "#9aceeb"
+ },
+ {
+   "Word": "cornflower blue",
+   "ColorHex": "#6495ed"
+ },
+ {
+   "Word": "cornsilk",
+   "ColorHex": "#fff8dc"
+ },
+ {
+   "Word": "cosmic latte",
+   "ColorHex": "#fff8e7"
+ },
+ {
+   "Word": "cotton candy",
+   "ColorHex": "#ffbcd9"
+ },
+ {
+   "Word": "cream",
+   "ColorHex": "#fffdd0"
+ },
+ {
+   "Word": "crimson",
+   "ColorHex": "#dc143c"
+ },
+ {
+   "Word": "crimson red",
+   "ColorHex": "#990000"
+ },
+ {
+   "Word": "crimson glory",
+   "ColorHex": "#be0032"
+ },
+ {
+   "Word": "cyan",
+   "ColorHex": "#00ffff"
+ },
+ {
+   "Word": "daffodil",
+   "ColorHex": "#ffff31"
+ },
+ {
+   "Word": "dandelion",
+   "ColorHex": "#f0e130"
+ },
+ {
+   "Word": "dark blue",
+   "ColorHex": "#00008b"
+ },
+ {
+   "Word": "dark brown",
+   "ColorHex": "#654321"
+ },
+ {
+   "Word": "dark byzantium",
+   "ColorHex": "#5d3954"
+ },
+ {
+   "Word": "dark candy apple red",
+   "ColorHex": "#a40000"
+ },
+ {
+   "Word": "dark cerulean",
+   "ColorHex": "#08457e"
+ },
+ {
+   "Word": "dark chestnut",
+   "ColorHex": "#986960"
+ },
+ {
+   "Word": "dark coral",
+   "ColorHex": "#cd5b45"
+ },
+ {
+   "Word": "dark cyan",
+   "ColorHex": "#008b8b"
+ },
+ {
+   "Word": "dark electric blue",
+   "ColorHex": "#536878"
+ },
+ {
+   "Word": "dark goldenrod",
+   "ColorHex": "#b8860b"
+ },
+ {
+   "Word": "dark gray",
+   "ColorHex": "#a9a9a9"
+ },
+ {
+   "Word": "dark green",
+   "ColorHex": "#013220"
+ },
+ {
+   "Word": "dark jungle green",
+   "ColorHex": "#1a2421"
+ },
+ {
+   "Word": "dark khaki",
+   "ColorHex": "#bdb76b"
+ },
+ {
+   "Word": "dark lava",
+   "ColorHex": "#483c32"
+ },
+ {
+   "Word": "dark lavender",
+   "ColorHex": "#734f96"
+ },
+ {
+   "Word": "dark magenta",
+   "ColorHex": "#8b008b"
+ },
+ {
+   "Word": "dark midnight blue",
+   "ColorHex": "#003366"
+ },
+ {
+   "Word": "dark olive green",
+   "ColorHex": "#556b2f"
+ },
+ {
+   "Word": "dark orange",
+   "ColorHex": "#ff8c00"
+ },
+ {
+   "Word": "dark orchid",
+   "ColorHex": "#9932cc"
+ },
+ {
+   "Word": "dark pastel blue",
+   "ColorHex": "#779ecb"
+ },
+ {
+   "Word": "dark pastel green",
+   "ColorHex": "#03c03c"
+ },
+ {
+   "Word": "dark pastel purple",
+   "ColorHex": "#966fd6"
+ },
+ {
+   "Word": "dark pastel red",
+   "ColorHex": "#c23b22"
+ },
+ {
+   "Word": "dark pink",
+   "ColorHex": "#e75480"
+ },
+ {
+   "Word": "dark powder blue",
+   "ColorHex": "#003399"
+ },
+ {
+   "Word": "dark raspberry",
+   "ColorHex": "#872657"
+ },
+ {
+   "Word": "dark red",
+   "ColorHex": "#8b0000"
+ },
+ {
+   "Word": "dark salmon",
+   "ColorHex": "#e9967a"
+ },
+ {
+   "Word": "dark scarlet",
+   "ColorHex": "#560319"
+ },
+ {
+   "Word": "dark sea green",
+   "ColorHex": "#8fbc8f"
+ },
+ {
+   "Word": "dark sienna",
+   "ColorHex": "#3c1414"
+ },
+ {
+   "Word": "dark slate blue",
+   "ColorHex": "#483d8b"
+ },
+ {
+   "Word": "dark slate gray",
+   "ColorHex": "#2f4f4f"
+ },
+ {
+   "Word": "dark spring green",
+   "ColorHex": "#177245"
+ },
+ {
+   "Word": "dark tan",
+   "ColorHex": "#918151"
+ },
+ {
+   "Word": "dark tangerine",
+   "ColorHex": "#ffa812"
+ },
+ {
+   "Word": "dark taupe",
+   "ColorHex": "#483c32"
+ },
+ {
+   "Word": "dark terra cotta",
+   "ColorHex": "#cc4e5c"
+ },
+ {
+   "Word": "dark turquoise",
+   "ColorHex": "#00ced1"
+ },
+ {
+   "Word": "dark violet",
+   "ColorHex": "#9400d3"
+ },
+ {
+   "Word": "dartmouth green",
+   "ColorHex": "#00693e"
+ },
+ {
+   "Word": "davy grey",
+   "ColorHex": "#555555"
+ },
+ {
+   "Word": "debian red",
+   "ColorHex": "#d70a53"
+ },
+ {
+   "Word": "deep carmine",
+   "ColorHex": "#a9203e"
+ },
+ {
+   "Word": "deep carmine pink",
+   "ColorHex": "#ef3038"
+ },
+ {
+   "Word": "deep carrot orange",
+   "ColorHex": "#e9692c"
+ },
+ {
+   "Word": "deep cerise",
+   "ColorHex": "#da3287"
+ },
+ {
+   "Word": "deep champagne",
+   "ColorHex": "#fad6a5"
+ },
+ {
+   "Word": "deep chestnut",
+   "ColorHex": "#b94e48"
+ },
+ {
+   "Word": "deep coffee",
+   "ColorHex": "#704241"
+ },
+ {
+   "Word": "deep fuchsia",
+   "ColorHex": "#c154c1"
+ },
+ {
+   "Word": "deep jungle green",
+   "ColorHex": "#004b49"
+ },
+ {
+   "Word": "deep lilac",
+   "ColorHex": "#9955bb"
+ },
+ {
+   "Word": "deep magenta",
+   "ColorHex": "#cc00cc"
+ },
+ {
+   "Word": "deep peach",
+   "ColorHex": "#ffcba4"
+ },
+ {
+   "Word": "deep pink",
+   "ColorHex": "#ff1493"
+ },
+ {
+   "Word": "deep saffron",
+   "ColorHex": "#ff9933"
+ },
+ {
+   "Word": "deep sky blue",
+   "ColorHex": "#00bfff"
+ },
+ {
+   "Word": "denim",
+   "ColorHex": "#1560bd"
+ },
+ {
+   "Word": "desert",
+   "ColorHex": "#c19a6b"
+ },
+ {
+   "Word": "desert sand",
+   "ColorHex": "#edc9af"
+ },
+ {
+   "Word": "dim gray",
+   "ColorHex": "#696969"
+ },
+ {
+   "Word": "dodger blue",
+   "ColorHex": "#1e90ff"
+ },
+ {
+   "Word": "dogwood rose",
+   "ColorHex": "#d71868"
+ },
+ {
+   "Word": "dollar bill",
+   "ColorHex": "#85bb65"
+ },
+ {
+   "Word": "drab",
+   "ColorHex": "#967117"
+ },
+ {
+   "Word": "duke blue",
+   "ColorHex": "#00009c"
+ },
+ {
+   "Word": "earth yellow",
+   "ColorHex": "#e1a95f"
+ },
+ {
+   "Word": "ecru",
+   "ColorHex": "#c2b280"
+ },
+ {
+   "Word": "eggplant",
+   "ColorHex": "#614051"
+ },
+ {
+   "Word": "eggshell",
+   "ColorHex": "#f0ead6"
+ },
+ {
+   "Word": "egyptian blue",
+   "ColorHex": "#1034a6"
+ },
+ {
+   "Word": "electric blue",
+   "ColorHex": "#7df9ff"
+ },
+ {
+   "Word": "electric crimson",
+   "ColorHex": "#ff003f"
+ },
+ {
+   "Word": "electric cyan",
+   "ColorHex": "#00ffff"
+ },
+ {
+   "Word": "electric green",
+   "ColorHex": "#00ff00"
+ },
+ {
+   "Word": "electric indigo",
+   "ColorHex": "#6f00ff"
+ },
+ {
+   "Word": "electric lavender",
+   "ColorHex": "#f4bbff"
+ },
+ {
+   "Word": "electric lime",
+   "ColorHex": "#ccff00"
+ },
+ {
+   "Word": "electric purple",
+   "ColorHex": "#bf00ff"
+ },
+ {
+   "Word": "electric ultramarine",
+   "ColorHex": "#3f00ff"
+ },
+ {
+   "Word": "electric violet",
+   "ColorHex": "#8f00ff"
+ },
+ {
+   "Word": "electric yellow",
+   "ColorHex": "#ffff00"
+ },
+ {
+   "Word": "emerald",
+   "ColorHex": "#50c878"
+ },
+ {
+   "Word": "eton blue",
+   "ColorHex": "#96c8a2"
+ },
+ {
+   "Word": "fallow",
+   "ColorHex": "#c19a6b"
+ },
+ {
+   "Word": "falu red",
+   "ColorHex": "#801818"
+ },
+ {
+   "Word": "famous",
+   "ColorHex": "#ff00ff"
+ },
+ {
+   "Word": "fandango",
+   "ColorHex": "#b53389"
+ },
+ {
+   "Word": "fashion fuchsia",
+   "ColorHex": "#f400a1"
+ },
+ {
+   "Word": "fawn",
+   "ColorHex": "#e5aa70"
+ },
+ {
+   "Word": "feldgrau",
+   "ColorHex": "#4d5d53"
+ },
+ {
+   "Word": "fern",
+   "ColorHex": "#71bc78"
+ },
+ {
+   "Word": "fern green",
+   "ColorHex": "#4f7942"
+ },
+ {
+   "Word": "ferrari red",
+   "ColorHex": "#ff2800"
+ },
+ {
+   "Word": "field drab",
+   "ColorHex": "#6c541e"
+ },
+ {
+   "Word": "fire engine red",
+   "ColorHex": "#ce2029"
+ },
+ {
+   "Word": "firebrick",
+   "ColorHex": "#b22222"
+ },
+ {
+   "Word": "flame",
+   "ColorHex": "#e25822"
+ },
+ {
+   "Word": "flamingo pink",
+   "ColorHex": "#fc8eac"
+ },
+ {
+   "Word": "flavescent",
+   "ColorHex": "#f7e98e"
+ },
+ {
+   "Word": "flax",
+   "ColorHex": "#eedc82"
+ },
+ {
+   "Word": "floral white",
+   "ColorHex": "#fffaf0"
+ },
+ {
+   "Word": "fluorescent orange",
+   "ColorHex": "#ffbf00"
+ },
+ {
+   "Word": "fluorescent pink",
+   "ColorHex": "#ff1493"
+ },
+ {
+   "Word": "fluorescent yellow",
+   "ColorHex": "#ccff00"
+ },
+ {
+   "Word": "folly",
+   "ColorHex": "#ff004f"
+ },
+ {
+   "Word": "forest green",
+   "ColorHex": "#228b22"
+ },
+ {
+   "Word": "french beige",
+   "ColorHex": "#a67b5b"
+ },
+ {
+   "Word": "french blue",
+   "ColorHex": "#0072bb"
+ },
+ {
+   "Word": "french lilac",
+   "ColorHex": "#86608e"
+ },
+ {
+   "Word": "french rose",
+   "ColorHex": "#f64a8a"
+ },
+ {
+   "Word": "fuchsia",
+   "ColorHex": "#ff00ff"
+ },
+ {
+   "Word": "fuchsia pink",
+   "ColorHex": "#ff77ff"
+ },
+ {
+   "Word": "fulvous",
+   "ColorHex": "#e48400"
+ },
+ {
+   "Word": "fuzzy wuzzy",
+   "ColorHex": "#cc6666"
+ },
+ {
+   "Word": "gainsboro",
+   "ColorHex": "#dcdcdc"
+ },
+ {
+   "Word": "gamboge",
+   "ColorHex": "#e49b0f"
+ },
+ {
+   "Word": "ghost white",
+   "ColorHex": "#f8f8ff"
+ },
+ {
+   "Word": "ginger",
+   "ColorHex": "#b06500"
+ },
+ {
+   "Word": "glaucous",
+   "ColorHex": "#6082b6"
+ },
+ {
+   "Word": "glitter",
+   "ColorHex": "#e6e8fa"
+ },
+ {
+   "Word": "gold",
+   "ColorHex": "#ffd700"
+ },
+ {
+   "Word": "golden brown",
+   "ColorHex": "#996515"
+ },
+ {
+   "Word": "golden poppy",
+   "ColorHex": "#fcc200"
+ },
+ {
+   "Word": "golden yellow",
+   "ColorHex": "#ffdf00"
+ },
+ {
+   "Word": "goldenrod",
+   "ColorHex": "#daa520"
+ },
+ {
+   "Word": "granny smith apple",
+   "ColorHex": "#a8e4a0"
+ },
+ {
+   "Word": "gray",
+   "ColorHex": "#808080"
+ },
+ {
+   "Word": "gray asparagus",
+   "ColorHex": "#465945"
+ },
+ {
+   "Word": "green",
+   "ColorHex": "#00ff00"
+ },
+ {
+   "Word": "green blue",
+   "ColorHex": "#1164b4"
+ },
+ {
+   "Word": "green yellow",
+   "ColorHex": "#adff2f"
+ },
+ {
+   "Word": "grullo",
+   "ColorHex": "#a99a86"
+ },
+ {
+   "Word": "guppie green",
+   "ColorHex": "#00ff7f"
+ },
+ {
+   "Word": "halay be",
+   "ColorHex": "#663854"
+ },
+ {
+   "Word": "han blue",
+   "ColorHex": "#446ccf"
+ },
+ {
+   "Word": "han purple",
+   "ColorHex": "#5218fa"
+ },
+ {
+   "Word": "hansa yellow",
+   "ColorHex": "#e9d66b"
+ },
+ {
+   "Word": "harlequin",
+   "ColorHex": "#3fff00"
+ },
+ {
+   "Word": "harvard crimson",
+   "ColorHex": "#c90016"
+ },
+ {
+   "Word": "harvest gold",
+   "ColorHex": "#da9100"
+ },
+ {
+   "Word": "heart gold",
+   "ColorHex": "#808000"
+ },
+ {
+   "Word": "heliotrope",
+   "ColorHex": "#df73ff"
+ },
+ {
+   "Word": "hollywood cerise",
+   "ColorHex": "#f400a1"
+ },
+ {
+   "Word": "honeydew",
+   "ColorHex": "#f0fff0"
+ },
+ {
+   "Word": "hooker green",
+   "ColorHex": "#49796b"
+ },
+ {
+   "Word": "hot magenta",
+   "ColorHex": "#ff1dce"
+ },
+ {
+   "Word": "hot pink",
+   "ColorHex": "#ff69b4"
+ },
+ {
+   "Word": "hunter green",
+   "ColorHex": "#355e3b"
+ },
+ {
+   "Word": "icterine",
+   "ColorHex": "#fcf75e"
+ },
+ {
+   "Word": "inchworm",
+   "ColorHex": "#b2ec5d"
+ },
+ {
+   "Word": "india green",
+   "ColorHex": "#138808"
+ },
+ {
+   "Word": "indian red",
+   "ColorHex": "#cd5c5c"
+ },
+ {
+   "Word": "indian yellow",
+   "ColorHex": "#e3a857"
+ },
+ {
+   "Word": "indigo",
+   "ColorHex": "#4b0082"
+ },
+ {
+   "Word": "international klein blue",
+   "ColorHex": "#002fa7"
+ },
+ {
+   "Word": "international orange",
+   "ColorHex": "#ff4f00"
+ },
+ {
+   "Word": "iris",
+   "ColorHex": "#5a4fcf"
+ },
+ {
+   "Word": "isabelline",
+   "ColorHex": "#f4f0ec"
+ },
+ {
+   "Word": "islamic green",
+   "ColorHex": "#009000"
+ },
+ {
+   "Word": "ivory",
+   "ColorHex": "#fffff0"
+ },
+ {
+   "Word": "jade",
+   "ColorHex": "#00a86b"
+ },
+ {
+   "Word": "jasmine",
+   "ColorHex": "#f8de7e"
+ },
+ {
+   "Word": "jasper",
+   "ColorHex": "#d73b3e"
+ },
+ {
+   "Word": "jazzberry jam",
+   "ColorHex": "#a50b5e"
+ },
+ {
+   "Word": "jonquil",
+   "ColorHex": "#fada5e"
+ },
+ {
+   "Word": "june bud",
+   "ColorHex": "#bdda57"
+ },
+ {
+   "Word": "jungle green",
+   "ColorHex": "#29ab87"
+ },
+ {
+   "Word": "ku crimson",
+   "ColorHex": "#e8000d"
+ },
+ {
+   "Word": "kelly green",
+   "ColorHex": "#4cbb17"
+ },
+ {
+   "Word": "khaki",
+   "ColorHex": "#c3b091"
+ },
+ {
+   "Word": "la salle green",
+   "ColorHex": "#087830"
+ },
+ {
+   "Word": "languid lavender",
+   "ColorHex": "#d6cadd"
+ },
+ {
+   "Word": "lapis lazuli",
+   "ColorHex": "#26619c"
+ },
+ {
+   "Word": "laser lemon",
+   "ColorHex": "#fefe22"
+ },
+ {
+   "Word": "laurel green",
+   "ColorHex": "#a9ba9d"
+ },
+ {
+   "Word": "lava",
+   "ColorHex": "#cf1020"
+ },
+ {
+   "Word": "lavender",
+   "ColorHex": "#e6e6fa"
+ },
+ {
+   "Word": "lavender blue",
+   "ColorHex": "#ccccff"
+ },
+ {
+   "Word": "lavender blush",
+   "ColorHex": "#fff0f5"
+ },
+ {
+   "Word": "lavender gray",
+   "ColorHex": "#c4c3d0"
+ },
+ {
+   "Word": "lavender indigo",
+   "ColorHex": "#9457eb"
+ },
+ {
+   "Word": "lavender magenta",
+   "ColorHex": "#ee82ee"
+ },
+ {
+   "Word": "lavender mist",
+   "ColorHex": "#e6e6fa"
+ },
+ {
+   "Word": "lavender pink",
+   "ColorHex": "#fbaed2"
+ },
+ {
+   "Word": "lavender purple",
+   "ColorHex": "#967bb6"
+ },
+ {
+   "Word": "lavender rose",
+   "ColorHex": "#fba0e3"
+ },
+ {
+   "Word": "lawn green",
+   "ColorHex": "#7cfc00"
+ },
+ {
+   "Word": "lemon",
+   "ColorHex": "#fff700"
+ },
+ {
+   "Word": "lemon yellow",
+   "ColorHex": "#fff44f"
+ },
+ {
+   "Word": "lemon chiffon",
+   "ColorHex": "#fffacd"
+ },
+ {
+   "Word": "lemon lime",
+   "ColorHex": "#bfff00"
+ },
+ {
+   "Word": "light crimson",
+   "ColorHex": "#f56991"
+ },
+ {
+   "Word": "light thulian pink",
+   "ColorHex": "#e68fac"
+ },
+ {
+   "Word": "light apricot",
+   "ColorHex": "#fdd5b1"
+ },
+ {
+   "Word": "light blue",
+   "ColorHex": "#add8e6"
+ },
+ {
+   "Word": "light brown",
+   "ColorHex": "#b5651d"
+ },
+ {
+   "Word": "light carmine pink",
+   "ColorHex": "#e66771"
+ },
+ {
+   "Word": "light coral",
+   "ColorHex": "#f08080"
+ },
+ {
+   "Word": "light cornflower blue",
+   "ColorHex": "#93ccea"
+ },
+ {
+   "Word": "light cyan",
+   "ColorHex": "#e0ffff"
+ },
+ {
+   "Word": "light fuchsia pink",
+   "ColorHex": "#f984ef"
+ },
+ {
+   "Word": "light goldenrod yellow",
+   "ColorHex": "#fafad2"
+ },
+ {
+   "Word": "light gray",
+   "ColorHex": "#d3d3d3"
+ },
+ {
+   "Word": "light green",
+   "ColorHex": "#90ee90"
+ },
+ {
+   "Word": "light khaki",
+   "ColorHex": "#f0e68c"
+ },
+ {
+   "Word": "light pastel purple",
+   "ColorHex": "#b19cd9"
+ },
+ {
+   "Word": "light pink",
+   "ColorHex": "#ffb6c1"
+ },
+ {
+   "Word": "light salmon",
+   "ColorHex": "#ffa07a"
+ },
+ {
+   "Word": "light salmon pink",
+   "ColorHex": "#ff9999"
+ },
+ {
+   "Word": "light sea green",
+   "ColorHex": "#20b2aa"
+ },
+ {
+   "Word": "light sky blue",
+   "ColorHex": "#87cefa"
+ },
+ {
+   "Word": "light slate gray",
+   "ColorHex": "#778899"
+ },
+ {
+   "Word": "light taupe",
+   "ColorHex": "#b38b6d"
+ },
+ {
+   "Word": "light yellow",
+   "ColorHex": "#ffffed"
+ },
+ {
+   "Word": "lilac",
+   "ColorHex": "#c8a2c8"
+ },
+ {
+   "Word": "lime",
+   "ColorHex": "#bfff00"
+ },
+ {
+   "Word": "lime green",
+   "ColorHex": "#32cd32"
+ },
+ {
+   "Word": "lincoln green",
+   "ColorHex": "#195905"
+ },
+ {
+   "Word": "linen",
+   "ColorHex": "#faf0e6"
+ },
+ {
+   "Word": "lion",
+   "ColorHex": "#c19a6b"
+ },
+ {
+   "Word": "liver",
+   "ColorHex": "#534b4f"
+ },
+ {
+   "Word": "lust",
+   "ColorHex": "#e62020"
+ },
+ {
+   "Word": "msu green",
+   "ColorHex": "#18453b"
+ },
+ {
+   "Word": "macaroni and cheese",
+   "ColorHex": "#ffbd88"
+ },
+ {
+   "Word": "magenta",
+   "ColorHex": "#ff00ff"
+ },
+ {
+   "Word": "magic mint",
+   "ColorHex": "#aaf0d1"
+ },
+ {
+   "Word": "magnolia",
+   "ColorHex": "#f8f4ff"
+ },
+ {
+   "Word": "mahogany",
+   "ColorHex": "#c04000"
+ },
+ {
+   "Word": "maize",
+   "ColorHex": "#fbec5d"
+ },
+ {
+   "Word": "majorelle blue",
+   "ColorHex": "#6050dc"
+ },
+ {
+   "Word": "malachite",
+   "ColorHex": "#0bda51"
+ },
+ {
+   "Word": "manatee",
+   "ColorHex": "#979aaa"
+ },
+ {
+   "Word": "mango tango",
+   "ColorHex": "#ff8243"
+ },
+ {
+   "Word": "mantis",
+   "ColorHex": "#74c365"
+ },
+ {
+   "Word": "maroon",
+   "ColorHex": "#800000"
+ },
+ {
+   "Word": "mauve",
+   "ColorHex": "#e0b0ff"
+ },
+ {
+   "Word": "mauve taupe",
+   "ColorHex": "#915f6d"
+ },
+ {
+   "Word": "mauvelous",
+   "ColorHex": "#ef98aa"
+ },
+ {
+   "Word": "maya blue",
+   "ColorHex": "#73c2fb"
+ },
+ {
+   "Word": "meat brown",
+   "ColorHex": "#e5b73b"
+ },
+ {
+   "Word": "medium persian blue",
+   "ColorHex": "#0067a5"
+ },
+ {
+   "Word": "medium aquamarine",
+   "ColorHex": "#66ddaa"
+ },
+ {
+   "Word": "medium blue",
+   "ColorHex": "#0000cd"
+ },
+ {
+   "Word": "medium candy apple red",
+   "ColorHex": "#e2062c"
+ },
+ {
+   "Word": "medium carmine",
+   "ColorHex": "#af4035"
+ },
+ {
+   "Word": "medium champagne",
+   "ColorHex": "#f3e5ab"
+ },
+ {
+   "Word": "medium electric blue",
+   "ColorHex": "#035096"
+ },
+ {
+   "Word": "medium jungle green",
+   "ColorHex": "#1c352d"
+ },
+ {
+   "Word": "medium lavender magenta",
+   "ColorHex": "#dda0dd"
+ },
+ {
+   "Word": "medium orchid",
+   "ColorHex": "#ba55d3"
+ },
+ {
+   "Word": "medium purple",
+   "ColorHex": "#9370db"
+ },
+ {
+   "Word": "medium red violet",
+   "ColorHex": "#bb3385"
+ },
+ {
+   "Word": "medium sea green",
+   "ColorHex": "#3cb371"
+ },
+ {
+   "Word": "medium slate blue",
+   "ColorHex": "#7b68ee"
+ },
+ {
+   "Word": "medium spring bud",
+   "ColorHex": "#c9dc87"
+ },
+ {
+   "Word": "medium spring green",
+   "ColorHex": "#00fa9a"
+ },
+ {
+   "Word": "medium taupe",
+   "ColorHex": "#674c47"
+ },
+ {
+   "Word": "medium teal blue",
+   "ColorHex": "#0054b4"
+ },
+ {
+   "Word": "medium turquoise",
+   "ColorHex": "#48d1cc"
+ },
+ {
+   "Word": "medium violet red",
+   "ColorHex": "#c71585"
+ },
+ {
+   "Word": "melon",
+   "ColorHex": "#fdbcb4"
+ },
+ {
+   "Word": "midnight blue",
+   "ColorHex": "#191970"
+ },
+ {
+   "Word": "midnight green",
+   "ColorHex": "#004953"
+ },
+ {
+   "Word": "mikado yellow",
+   "ColorHex": "#ffc40c"
+ },
+ {
+   "Word": "mint",
+   "ColorHex": "#3eb489"
+ },
+ {
+   "Word": "mint cream",
+   "ColorHex": "#f5fffa"
+ },
+ {
+   "Word": "mint green",
+   "ColorHex": "#98ff98"
+ },
+ {
+   "Word": "misty rose",
+   "ColorHex": "#ffe4e1"
+ },
+ {
+   "Word": "moccasin",
+   "ColorHex": "#faebd7"
+ },
+ {
+   "Word": "mode beige",
+   "ColorHex": "#967117"
+ },
+ {
+   "Word": "moonstone blue",
+   "ColorHex": "#73a9c2"
+ },
+ {
+   "Word": "mordant red 19",
+   "ColorHex": "#ae0c00"
+ },
+ {
+   "Word": "moss green",
+   "ColorHex": "#addfad"
+ },
+ {
+   "Word": "mountain meadow",
+   "ColorHex": "#30ba8f"
+ },
+ {
+   "Word": "mountbatten pink",
+   "ColorHex": "#997a8d"
+ },
+ {
+   "Word": "mulberry",
+   "ColorHex": "#c54b8c"
+ },
+ {
+   "Word": "munsell",
+   "ColorHex": "#f2f3f4"
+ },
+ {
+   "Word": "mustard",
+   "ColorHex": "#ffdb58"
+ },
+ {
+   "Word": "myrtle",
+   "ColorHex": "#21421e"
+ },
+ {
+   "Word": "nadeshiko pink",
+   "ColorHex": "#f6adc6"
+ },
+ {
+   "Word": "napier green",
+   "ColorHex": "#2a8000"
+ },
+ {
+   "Word": "naples yellow",
+   "ColorHex": "#fada5e"
+ },
+ {
+   "Word": "navajo white",
+   "ColorHex": "#ffdead"
+ },
+ {
+   "Word": "navy blue",
+   "ColorHex": "#000080"
+ },
+ {
+   "Word": "neon carrot",
+   "ColorHex": "#ffa343"
+ },
+ {
+   "Word": "neon fuchsia",
+   "ColorHex": "#fe59c2"
+ },
+ {
+   "Word": "neon green",
+   "ColorHex": "#39ff14"
+ },
+ {
+   "Word": "non-photo blue",
+   "ColorHex": "#a4dded"
+ },
+ {
+   "Word": "north texas green",
+   "ColorHex": "#059033"
+ },
+ {
+   "Word": "ocean boat blue",
+   "ColorHex": "#0077be"
+ },
+ {
+   "Word": "ochre",
+   "ColorHex": "#cc7722"
+ },
+ {
+   "Word": "office green",
+   "ColorHex": "#008000"
+ },
+ {
+   "Word": "old gold",
+   "ColorHex": "#cfb53b"
+ },
+ {
+   "Word": "old lace",
+   "ColorHex": "#fdf5e6"
+ },
+ {
+   "Word": "old lavender",
+   "ColorHex": "#796878"
+ },
+ {
+   "Word": "old mauve",
+   "ColorHex": "#673147"
+ },
+ {
+   "Word": "old rose",
+   "ColorHex": "#c08081"
+ },
+ {
+   "Word": "olive",
+   "ColorHex": "#808000"
+ },
+ {
+   "Word": "olive drab",
+   "ColorHex": "#6b8e23"
+ },
+ {
+   "Word": "olive green",
+   "ColorHex": "#bab86c"
+ },
+ {
+   "Word": "olivine",
+   "ColorHex": "#9ab973"
+ },
+ {
+   "Word": "onyx",
+   "ColorHex": "#0f0f0f"
+ },
+ {
+   "Word": "opera mauve",
+   "ColorHex": "#b784a7"
+ },
+ {
+   "Word": "orange",
+   "ColorHex": "#ffa500"
+ },
+ {
+   "Word": "orange yellow",
+   "ColorHex": "#f8d568"
+ },
+ {
+   "Word": "orange peel",
+   "ColorHex": "#ff9f00"
+ },
+ {
+   "Word": "orange red",
+   "ColorHex": "#ff4500"
+ },
+ {
+   "Word": "orchid",
+   "ColorHex": "#da70d6"
+ },
+ {
+   "Word": "otter brown",
+   "ColorHex": "#654321"
+ },
+ {
+   "Word": "outer space",
+   "ColorHex": "#414a4c"
+ },
+ {
+   "Word": "outrageous orange",
+   "ColorHex": "#ff6e4a"
+ },
+ {
+   "Word": "oxford blue",
+   "ColorHex": "#002147"
+ },
+ {
+   "Word": "pacific blue",
+   "ColorHex": "#1ca9c9"
+ },
+ {
+   "Word": "pakistan green",
+   "ColorHex": "#006600"
+ },
+ {
+   "Word": "palatinate blue",
+   "ColorHex": "#273be2"
+ },
+ {
+   "Word": "palatinate purple",
+   "ColorHex": "#682860"
+ },
+ {
+   "Word": "pale aqua",
+   "ColorHex": "#bcd4e6"
+ },
+ {
+   "Word": "pale blue",
+   "ColorHex": "#afeeee"
+ },
+ {
+   "Word": "pale brown",
+   "ColorHex": "#987654"
+ },
+ {
+   "Word": "pale carmine",
+   "ColorHex": "#af4035"
+ },
+ {
+   "Word": "pale cerulean",
+   "ColorHex": "#9bc4e2"
+ },
+ {
+   "Word": "pale chestnut",
+   "ColorHex": "#ddadaf"
+ },
+ {
+   "Word": "pale copper",
+   "ColorHex": "#da8a67"
+ },
+ {
+   "Word": "pale cornflower blue",
+   "ColorHex": "#abcdef"
+ },
+ {
+   "Word": "pale gold",
+   "ColorHex": "#e6be8a"
+ },
+ {
+   "Word": "pale goldenrod",
+   "ColorHex": "#eee8aa"
+ },
+ {
+   "Word": "pale green",
+   "ColorHex": "#98fb98"
+ },
+ {
+   "Word": "pale lavender",
+   "ColorHex": "#dcd0ff"
+ },
+ {
+   "Word": "pale magenta",
+   "ColorHex": "#f984e5"
+ },
+ {
+   "Word": "pale pink",
+   "ColorHex": "#fadadd"
+ },
+ {
+   "Word": "pale plum",
+   "ColorHex": "#dda0dd"
+ },
+ {
+   "Word": "pale red violet",
+   "ColorHex": "#db7093"
+ },
+ {
+   "Word": "pale robin egg blue",
+   "ColorHex": "#96ded1"
+ },
+ {
+   "Word": "pale silver",
+   "ColorHex": "#c9c0bb"
+ },
+ {
+   "Word": "pale spring bud",
+   "ColorHex": "#ecebbd"
+ },
+ {
+   "Word": "pale taupe",
+   "ColorHex": "#bc987e"
+ },
+ {
+   "Word": "pale violet red",
+   "ColorHex": "#db7093"
+ },
+ {
+   "Word": "pansy purple",
+   "ColorHex": "#78184a"
+ },
+ {
+   "Word": "papaya whip",
+   "ColorHex": "#ffefd5"
+ },
+ {
+   "Word": "paris green",
+   "ColorHex": "#50c878"
+ },
+ {
+   "Word": "pastel blue",
+   "ColorHex": "#aec6cf"
+ },
+ {
+   "Word": "pastel brown",
+   "ColorHex": "#836953"
+ },
+ {
+   "Word": "pastel gray",
+   "ColorHex": "#cfcfc4"
+ },
+ {
+   "Word": "pastel green",
+   "ColorHex": "#77dd77"
+ },
+ {
+   "Word": "pastel magenta",
+   "ColorHex": "#f49ac2"
+ },
+ {
+   "Word": "pastel orange",
+   "ColorHex": "#ffb347"
+ },
+ {
+   "Word": "pastel pink",
+   "ColorHex": "#ffd1dc"
+ },
+ {
+   "Word": "pastel purple",
+   "ColorHex": "#b39eb5"
+ },
+ {
+   "Word": "pastel red",
+   "ColorHex": "#ff6961"
+ },
+ {
+   "Word": "pastel violet",
+   "ColorHex": "#cb99c9"
+ },
+ {
+   "Word": "pastel yellow",
+   "ColorHex": "#fdfd96"
+ },
+ {
+   "Word": "patriarch",
+   "ColorHex": "#800080"
+ },
+ {
+   "Word": "payne grey",
+   "ColorHex": "#536878"
+ },
+ {
+   "Word": "peach",
+   "ColorHex": "#ffe5b4"
+ },
+ {
+   "Word": "peach puff",
+   "ColorHex": "#ffdab9"
+ },
+ {
+   "Word": "peach yellow",
+   "ColorHex": "#fadfad"
+ },
+ {
+   "Word": "pear",
+   "ColorHex": "#d1e231"
+ },
+ {
+   "Word": "pearl",
+   "ColorHex": "#eae0c8"
+ },
+ {
+   "Word": "pearl aqua",
+   "ColorHex": "#88d8c0"
+ },
+ {
+   "Word": "peridot",
+   "ColorHex": "#e6e200"
+ },
+ {
+   "Word": "periwinkle",
+   "ColorHex": "#ccccff"
+ },
+ {
+   "Word": "persian blue",
+   "ColorHex": "#1c39bb"
+ },
+ {
+   "Word": "persian indigo",
+   "ColorHex": "#32127a"
+ },
+ {
+   "Word": "persian orange",
+   "ColorHex": "#d99058"
+ },
+ {
+   "Word": "persian pink",
+   "ColorHex": "#f77fbe"
+ },
+ {
+   "Word": "persian plum",
+   "ColorHex": "#701c1c"
+ },
+ {
+   "Word": "persian red",
+   "ColorHex": "#cc3333"
+ },
+ {
+   "Word": "persian rose",
+   "ColorHex": "#fe28a2"
+ },
+ {
+   "Word": "phlox",
+   "ColorHex": "#df00ff"
+ },
+ {
+   "Word": "phthalo blue",
+   "ColorHex": "#000f89"
+ },
+ {
+   "Word": "phthalo green",
+   "ColorHex": "#123524"
+ },
+ {
+   "Word": "piggy pink",
+   "ColorHex": "#fddde6"
+ },
+ {
+   "Word": "pine green",
+   "ColorHex": "#01796f"
+ },
+ {
+   "Word": "pink",
+   "ColorHex": "#ffc0cb"
+ },
+ {
+   "Word": "pink flamingo",
+   "ColorHex": "#fc74fd"
+ },
+ {
+   "Word": "pink sherbet",
+   "ColorHex": "#f78fa7"
+ },
+ {
+   "Word": "pink pearl",
+   "ColorHex": "#e7accf"
+ },
+ {
+   "Word": "pistachio",
+   "ColorHex": "#93c572"
+ },
+ {
+   "Word": "platinum",
+   "ColorHex": "#e5e4e2"
+ },
+ {
+   "Word": "plum",
+   "ColorHex": "#dda0dd"
+ },
+ {
+   "Word": "portland orange",
+   "ColorHex": "#ff5a36"
+ },
+ {
+   "Word": "powder blue",
+   "ColorHex": "#b0e0e6"
+ },
+ {
+   "Word": "princeton orange",
+   "ColorHex": "#ff8f00"
+ },
+ {
+   "Word": "prussian blue",
+   "ColorHex": "#003153"
+ },
+ {
+   "Word": "psychedelic purple",
+   "ColorHex": "#df00ff"
+ },
+ {
+   "Word": "puce",
+   "ColorHex": "#cc8899"
+ },
+ {
+   "Word": "pumpkin",
+   "ColorHex": "#ff7518"
+ },
+ {
+   "Word": "purple",
+   "ColorHex": "#800080"
+ },
+ {
+   "Word": "purple heart",
+   "ColorHex": "#69359c"
+ },
+ {
+   "Word": "purple mountain's majesty",
+   "ColorHex": "#9d81ba"
+ },
+ {
+   "Word": "purple mountain majesty",
+   "ColorHex": "#9678b6"
+ },
+ {
+   "Word": "purple pizzazz",
+   "ColorHex": "#fe4eda"
+ },
+ {
+   "Word": "purple taupe",
+   "ColorHex": "#50404d"
+ },
+ {
+   "Word": "rackley",
+   "ColorHex": "#5d8aa8"
+ },
+ {
+   "Word": "radical red",
+   "ColorHex": "#ff355e"
+ },
+ {
+   "Word": "raspberry",
+   "ColorHex": "#e30b5d"
+ },
+ {
+   "Word": "raspberry glace",
+   "ColorHex": "#915f6d"
+ },
+ {
+   "Word": "raspberry pink",
+   "ColorHex": "#e25098"
+ },
+ {
+   "Word": "raspberry rose",
+   "ColorHex": "#b3446c"
+ },
+ {
+   "Word": "raw sienna",
+   "ColorHex": "#d68a59"
+ },
+ {
+   "Word": "razzle dazzle rose",
+   "ColorHex": "#ff33cc"
+ },
+ {
+   "Word": "razzmatazz",
+   "ColorHex": "#e3256b"
+ },
+ {
+   "Word": "red",
+   "ColorHex": "#ff0000"
+ },
+ {
+   "Word": "red orange",
+   "ColorHex": "#ff5349"
+ },
+ {
+   "Word": "red brown",
+   "ColorHex": "#a52a2a"
+ },
+ {
+   "Word": "red violet",
+   "ColorHex": "#c71585"
+ },
+ {
+   "Word": "rich black",
+   "ColorHex": "#004040"
+ },
+ {
+   "Word": "rich carmine",
+   "ColorHex": "#d70040"
+ },
+ {
+   "Word": "rich electric blue",
+   "ColorHex": "#0892d0"
+ },
+ {
+   "Word": "rich lilac",
+   "ColorHex": "#b666d2"
+ },
+ {
+   "Word": "rich maroon",
+   "ColorHex": "#b03060"
+ },
+ {
+   "Word": "rifle green",
+   "ColorHex": "#414833"
+ },
+ {
+   "Word": "robin's egg blue",
+   "ColorHex": "#1fcecb"
+ },
+ {
+   "Word": "rose",
+   "ColorHex": "#ff007f"
+ },
+ {
+   "Word": "rose bonbon",
+   "ColorHex": "#f9429e"
+ },
+ {
+   "Word": "rose ebony",
+   "ColorHex": "#674846"
+ },
+ {
+   "Word": "rose gold",
+   "ColorHex": "#b76e79"
+ },
+ {
+   "Word": "rose madder",
+   "ColorHex": "#e32636"
+ },
+ {
+   "Word": "rose pink",
+   "ColorHex": "#ff66cc"
+ },
+ {
+   "Word": "rose quartz",
+   "ColorHex": "#aa98a9"
+ },
+ {
+   "Word": "rose taupe",
+   "ColorHex": "#905d5d"
+ },
+ {
+   "Word": "rose vale",
+   "ColorHex": "#ab4e52"
+ },
+ {
+   "Word": "rosewood",
+   "ColorHex": "#65000b"
+ },
+ {
+   "Word": "rosso corsa",
+   "ColorHex": "#d40000"
+ },
+ {
+   "Word": "rosy brown",
+   "ColorHex": "#bc8f8f"
+ },
+ {
+   "Word": "royal azure",
+   "ColorHex": "#0038a8"
+ },
+ {
+   "Word": "royal blue",
+   "ColorHex": "#4169e1"
+ },
+ {
+   "Word": "royal fuchsia",
+   "ColorHex": "#ca2c92"
+ },
+ {
+   "Word": "royal purple",
+   "ColorHex": "#7851a9"
+ },
+ {
+   "Word": "ruby",
+   "ColorHex": "#e0115f"
+ },
+ {
+   "Word": "ruddy",
+   "ColorHex": "#ff0028"
+ },
+ {
+   "Word": "ruddy brown",
+   "ColorHex": "#bb6528"
+ },
+ {
+   "Word": "ruddy pink",
+   "ColorHex": "#e18e96"
+ },
+ {
+   "Word": "rufous",
+   "ColorHex": "#a81c07"
+ },
+ {
+   "Word": "russet",
+   "ColorHex": "#80461b"
+ },
+ {
+   "Word": "rust",
+   "ColorHex": "#b7410e"
+ },
+ {
+   "Word": "sacramento state green",
+   "ColorHex": "#00563f"
+ },
+ {
+   "Word": "saddle brown",
+   "ColorHex": "#8b4513"
+ },
+ {
+   "Word": "safety orange",
+   "ColorHex": "#ff6700"
+ },
+ {
+   "Word": "saffron",
+   "ColorHex": "#f4c430"
+ },
+ {
+   "Word": "saint patrick blue",
+   "ColorHex": "#23297a"
+ },
+ {
+   "Word": "salmon",
+   "ColorHex": "#ff8c69"
+ },
+ {
+   "Word": "salmon pink",
+   "ColorHex": "#ff91a4"
+ },
+ {
+   "Word": "sand",
+   "ColorHex": "#c2b280"
+ },
+ {
+   "Word": "sand dune",
+   "ColorHex": "#967117"
+ },
+ {
+   "Word": "sandstorm",
+   "ColorHex": "#ecd540"
+ },
+ {
+   "Word": "sandy brown",
+   "ColorHex": "#f4a460"
+ },
+ {
+   "Word": "sandy taupe",
+   "ColorHex": "#967117"
+ },
+ {
+   "Word": "sap green",
+   "ColorHex": "#507d2a"
+ },
+ {
+   "Word": "sapphire",
+   "ColorHex": "#0f52ba"
+ },
+ {
+   "Word": "satin sheen gold",
+   "ColorHex": "#cba135"
+ },
+ {
+   "Word": "scarlet",
+   "ColorHex": "#ff2400"
+ },
+ {
+   "Word": "school bus yellow",
+   "ColorHex": "#ffd800"
+ },
+ {
+   "Word": "screamin green",
+   "ColorHex": "#76ff7a"
+ },
+ {
+   "Word": "sea blue",
+   "ColorHex": "#006994"
+ },
+ {
+   "Word": "sea green",
+   "ColorHex": "#2e8b57"
+ },
+ {
+   "Word": "seal brown",
+   "ColorHex": "#321414"
+ },
+ {
+   "Word": "seashell",
+   "ColorHex": "#fff5ee"
+ },
+ {
+   "Word": "selective yellow",
+   "ColorHex": "#ffba00"
+ },
+ {
+   "Word": "sepia",
+   "ColorHex": "#704214"
+ },
+ {
+   "Word": "shadow",
+   "ColorHex": "#8a795d"
+ },
+ {
+   "Word": "shamrock",
+   "ColorHex": "#45cea2"
+ },
+ {
+   "Word": "shamrock green",
+   "ColorHex": "#009e60"
+ },
+ {
+   "Word": "shocking pink",
+   "ColorHex": "#fc0fc0"
+ },
+ {
+   "Word": "sienna",
+   "ColorHex": "#882d17"
+ },
+ {
+   "Word": "silver",
+   "ColorHex": "#c0c0c0"
+ },
+ {
+   "Word": "sinopia",
+   "ColorHex": "#cb410b"
+ },
+ {
+   "Word": "skobeloff",
+   "ColorHex": "#007474"
+ },
+ {
+   "Word": "sky blue",
+   "ColorHex": "#87ceeb"
+ },
+ {
+   "Word": "sky magenta",
+   "ColorHex": "#cf71af"
+ },
+ {
+   "Word": "slate blue",
+   "ColorHex": "#6a5acd"
+ },
+ {
+   "Word": "slate gray",
+   "ColorHex": "#708090"
+ },
+ {
+   "Word": "smalt",
+   "ColorHex": "#003399"
+ },
+ {
+   "Word": "smokey topaz",
+   "ColorHex": "#933d41"
+ },
+ {
+   "Word": "smoky black",
+   "ColorHex": "#100c08"
+ },
+ {
+   "Word": "snow",
+   "ColorHex": "#fffafa"
+ },
+ {
+   "Word": "spiro disco ball",
+   "ColorHex": "#0fc0fc"
+ },
+ {
+   "Word": "spring bud",
+   "ColorHex": "#a7fc00"
+ },
+ {
+   "Word": "spring green",
+   "ColorHex": "#00ff7f"
+ },
+ {
+   "Word": "steel blue",
+   "ColorHex": "#4682b4"
+ },
+ {
+   "Word": "stil de grain yellow",
+   "ColorHex": "#fada5e"
+ },
+ {
+   "Word": "stizza",
+   "ColorHex": "#990000"
+ },
+ {
+   "Word": "stormcloud",
+   "ColorHex": "#008080"
+ },
+ {
+   "Word": "straw",
+   "ColorHex": "#e4d96f"
+ },
+ {
+   "Word": "sunglow",
+   "ColorHex": "#ffcc33"
+ },
+ {
+   "Word": "sunset",
+   "ColorHex": "#fad6a5"
+ },
+ {
+   "Word": "sunset orange",
+   "ColorHex": "#fd5e53"
+ },
+ {
+   "Word": "tan",
+   "ColorHex": "#d2b48c"
+ },
+ {
+   "Word": "tangelo",
+   "ColorHex": "#f94d00"
+ },
+ {
+   "Word": "tangerine",
+   "ColorHex": "#f28500"
+ },
+ {
+   "Word": "tangerine yellow",
+   "ColorHex": "#ffcc00"
+ },
+ {
+   "Word": "taupe",
+   "ColorHex": "#483c32"
+ },
+ {
+   "Word": "taupe gray",
+   "ColorHex": "#8b8589"
+ },
+ {
+   "Word": "tawny",
+   "ColorHex": "#cd5700"
+ },
+ {
+   "Word": "tea green",
+   "ColorHex": "#d0f0c0"
+ },
+ {
+   "Word": "tea rose",
+   "ColorHex": "#f4c2c2"
+ },
+ {
+   "Word": "teal",
+   "ColorHex": "#008080"
+ },
+ {
+   "Word": "teal blue",
+   "ColorHex": "#367588"
+ },
+ {
+   "Word": "teal green",
+   "ColorHex": "#006d5b"
+ },
+ {
+   "Word": "terra cotta",
+   "ColorHex": "#e2725b"
+ },
+ {
+   "Word": "thistle",
+   "ColorHex": "#d8bfd8"
+ },
+ {
+   "Word": "thulian pink",
+   "ColorHex": "#de6fa1"
+ },
+ {
+   "Word": "tickle me pink",
+   "ColorHex": "#fc89ac"
+ },
+ {
+   "Word": "tiffany blue",
+   "ColorHex": "#0abab5"
+ },
+ {
+   "Word": "tiger eye",
+   "ColorHex": "#e08d3c"
+ },
+ {
+   "Word": "timberwolf",
+   "ColorHex": "#dbd7d2"
+ },
+ {
+   "Word": "titanium yellow",
+   "ColorHex": "#eee600"
+ },
+ {
+   "Word": "tomato",
+   "ColorHex": "#ff6347"
+ },
+ {
+   "Word": "toolbox",
+   "ColorHex": "#746cc0"
+ },
+ {
+   "Word": "topaz",
+   "ColorHex": "#ffc87c"
+ },
+ {
+   "Word": "tractor red",
+   "ColorHex": "#fd0e35"
+ },
+ {
+   "Word": "trolley grey",
+   "ColorHex": "#808080"
+ },
+ {
+   "Word": "tropical rain forest",
+   "ColorHex": "#00755e"
+ },
+ {
+   "Word": "true blue",
+   "ColorHex": "#0073cf"
+ },
+ {
+   "Word": "tufts blue",
+   "ColorHex": "#417dc1"
+ },
+ {
+   "Word": "tumbleweed",
+   "ColorHex": "#deaa88"
+ },
+ {
+   "Word": "turkish rose",
+   "ColorHex": "#b57281"
+ },
+ {
+   "Word": "turquoise",
+   "ColorHex": "#30d5c8"
+ },
+ {
+   "Word": "turquoise blue",
+   "ColorHex": "#00ffef"
+ },
+ {
+   "Word": "turquoise green",
+   "ColorHex": "#a0d6b4"
+ },
+ {
+   "Word": "tuscan red",
+   "ColorHex": "#66424d"
+ },
+ {
+   "Word": "twilight lavender",
+   "ColorHex": "#8a496b"
+ },
+ {
+   "Word": "tyrian purple",
+   "ColorHex": "#66023c"
+ },
+ {
+   "Word": "ua blue",
+   "ColorHex": "#0033aa"
+ },
+ {
+   "Word": "ua red",
+   "ColorHex": "#d9004c"
+ },
+ {
+   "Word": "ucla blue",
+   "ColorHex": "#536895"
+ },
+ {
+   "Word": "ucla gold",
+   "ColorHex": "#ffb300"
+ },
+ {
+   "Word": "ufo green",
+   "ColorHex": "#3cd070"
+ },
+ {
+   "Word": "up forest green",
+   "ColorHex": "#014421"
+ },
+ {
+   "Word": "up maroon",
+   "ColorHex": "#7b1113"
+ },
+ {
+   "Word": "usc cardinal",
+   "ColorHex": "#990000"
+ },
+ {
+   "Word": "usc gold",
+   "ColorHex": "#ffcc00"
+ },
+ {
+   "Word": "ube",
+   "ColorHex": "#8878c3"
+ },
+ {
+   "Word": "ultra pink",
+   "ColorHex": "#ff6fff"
+ },
+ {
+   "Word": "ultramarine",
+   "ColorHex": "#120a8f"
+ },
+ {
+   "Word": "ultramarine blue",
+   "ColorHex": "#4166f5"
+ },
+ {
+   "Word": "umber",
+   "ColorHex": "#635147"
+ },
+ {
+   "Word": "united nations blue",
+   "ColorHex": "#5b92e5"
+ },
+ {
+   "Word": "university of california gold",
+   "ColorHex": "#b78727"
+ },
+ {
+   "Word": "unmellow yellow",
+   "ColorHex": "#ffff66"
+ },
+ {
+   "Word": "upsdell red",
+   "ColorHex": "#ae2029"
+ },
+ {
+   "Word": "urobilin",
+   "ColorHex": "#e1ad21"
+ },
+ {
+   "Word": "utah crimson",
+   "ColorHex": "#d3003f"
+ },
+ {
+   "Word": "vanilla",
+   "ColorHex": "#f3e5ab"
+ },
+ {
+   "Word": "vegas gold",
+   "ColorHex": "#c5b358"
+ },
+ {
+   "Word": "venetian red",
+   "ColorHex": "#c80815"
+ },
+ {
+   "Word": "verdigris",
+   "ColorHex": "#43b3ae"
+ },
+ {
+   "Word": "vermilion",
+   "ColorHex": "#e34234"
+ },
+ {
+   "Word": "veronica",
+   "ColorHex": "#a020f0"
+ },
+ {
+   "Word": "violet",
+   "ColorHex": "#ee82ee"
+ },
+ {
+   "Word": "violet blue",
+   "ColorHex": "#324ab2"
+ },
+ {
+   "Word": "violet red",
+   "ColorHex": "#f75394"
+ },
+ {
+   "Word": "viridian",
+   "ColorHex": "#40826d"
+ },
+ {
+   "Word": "vivid auburn",
+   "ColorHex": "#922724"
+ },
+ {
+   "Word": "vivid burgundy",
+   "ColorHex": "#9f1d35"
+ },
+ {
+   "Word": "vivid cerise",
+   "ColorHex": "#da1d81"
+ },
+ {
+   "Word": "vivid tangerine",
+   "ColorHex": "#ffa089"
+ },
+ {
+   "Word": "vivid violet",
+   "ColorHex": "#9f00ff"
+ },
+ {
+   "Word": "warm black",
+   "ColorHex": "#004242"
+ },
+ {
+   "Word": "waterspout",
+   "ColorHex": "#00ffff"
+ },
+ {
+   "Word": "wenge",
+   "ColorHex": "#645452"
+ },
+ {
+   "Word": "wheat",
+   "ColorHex": "#f5deb3"
+ },
+ {
+   "Word": "white",
+   "ColorHex": "#ffffff"
+ },
+ {
+   "Word": "white smoke",
+   "ColorHex": "#f5f5f5"
+ },
+ {
+   "Word": "wild strawberry",
+   "ColorHex": "#ff43a4"
+ },
+ {
+   "Word": "wild watermelon",
+   "ColorHex": "#fc6c85"
+ },
+ {
+   "Word": "wild blue yonder",
+   "ColorHex": "#a2add0"
+ },
+ {
+   "Word": "wine",
+   "ColorHex": "#722f37"
+ },
+ {
+   "Word": "wisteria",
+   "ColorHex": "#c9a0dc"
+ },
+ {
+   "Word": "xanadu",
+   "ColorHex": "#738678"
+ },
+ {
+   "Word": "yale blue",
+   "ColorHex": "#0f4d92"
+ },
+ {
+   "Word": "yellow",
+   "ColorHex": "#ffff00"
+ },
+ {
+   "Word": "yellow orange",
+   "ColorHex": "#ffae42"
+ },
+ {
+   "Word": "yellow green",
+   "ColorHex": "#9acd32"
+ },
+ {
+   "Word": "zaffre",
+   "ColorHex": "#0014a8"
+ },
+ {
+   "Word": "zinnwaldite brown",
+   "ColorHex": "#2c1608"
+ }
+]

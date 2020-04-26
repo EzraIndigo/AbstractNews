@@ -1,4 +1,5 @@
 var AFFIN_Data = AFFIN;
+var CurrentWordBreakdown = "";
 var api_key = "8364efe72c45415ca3d8a56cadb815f4";
 //URL api from google
 var url = 'http://newsapi.org/v2/top-headlines?' +
@@ -12,7 +13,7 @@ const gotNews = (newsData) => {
   newsData.articles.forEach((article) => {
   topHeadLines.push(article.title);
   })
-  
+  CurrentWordBreakdown = topHeadLines[0];
   displayNewsHeadlines()
 }
 
@@ -30,6 +31,7 @@ function displayNewsHeadlines() {
   document.getElementById("headlines").innerHTML += "<ul id = 'result-semantic'>Loading...</ul>";
 
   setupWord(topHeadLines[0]);
+  
   listLoad = true;
 
 }
@@ -44,7 +46,6 @@ function reload(e) {
  }
  //------------------------------------
  var elem = e.target || e.srcElement;
- console.log(elem);
  elem.style.color = "rgb(214, 93, 93)";
  setupWord(elem.textContent); //rerun functions below
 }
@@ -53,10 +54,13 @@ function reload(e) {
 var finalWords = []; //final array
 var finalScore = [];
 
+
+function getTokenize(txt) {
+}
+
 function setupWord(txt) {
   finalWords =[];
-  finalScore =[]
-  console.log(AFFIN.length);
+  finalScore =[];
 //txt = topHeadLines[0];
   var allwords = txt;
   var tokens = allwords.split(/\W+/); //Regex to split up words from setence
@@ -68,13 +72,12 @@ function setupWord(txt) {
 
   for (k = 0; k < finalWords.length; k++) {
     var currentWord = finalWords[k];
-    console.log("word: " + currentWord);
     var score = getWordScores(currentWord);
-    console.log("score: " + score);
     finalScore.push(score);
   }
   
   displayScore(finalScore);
+  CurrentWordBreakdown = txt;
 
 
 }
@@ -85,7 +88,7 @@ function removeIllegalChars(word) {
 
 
 
-function getWordScores(word) { 
+function getWordScores(word) {
   var rating;
   for(i = 0; i < AFFIN_Data.length; i++) {
     if (word == AFFIN_Data[i].Word) {
@@ -99,6 +102,23 @@ function getWordScores(word) {
     }
   } ///////////////////LOOK INTO WHAT TO DO IF NO WORD MATCH IS FOUND IN AFFIN
 }
+
+
+function getWordPrimaryColor(word) {
+  var col;
+  for(k = 0; k < ColToWordAssoc.length; k++) {
+    if (word == ColToWordAssoc[k].Word) {
+      col = ColToWordAssoc[k].Color;
+      return col;
+    }
+    else if (k == ColToWordAssoc.length-1) {
+      col = "none";
+      break;
+    }
+  } return col;
+}
+
+
 
 
 var semantic_range_set = [
@@ -158,6 +178,7 @@ var semantic_range_set = [
 function displayScore(finalScore) {
   var score = 0;
   console.log(finalScore);
+  displayWordBreakdown();
   for(i = 0; i < finalScore.length; i++) {
     score = score + finalScore[i];
   }
@@ -177,10 +198,23 @@ function displayScore(finalScore) {
 }
 
 function displayWordBreakdown() {
+  console.log(CurrentWordBreakdown);
+  var wordDisplay = document.getElementById("word-info");
+  var scoreDisplay = document.getElementById("score-info");
+  var colorDisplay = document.getElementById("word-color-info");
+  wordDisplay.innerHTML = "<h2> Headline Breakdown </h2>" + "<strong> Word </strong> </br>";
+  scoreDisplay.innerHTML = "<strong> Score </strong>";
+  colorDisplay.innerHTML = "<strong> Assoc Color </strong>";
+  for(i = 0; i < finalWords.length; i++) {
+    var thisWord = finalWords[i];
+    var wordCol = getWordPrimaryColor(thisWord);
+    wordDisplay.innerHTML += "<li>"+ finalWords[i] + "</li>";
+    scoreDisplay.innerHTML += "<li>" + finalScore[i] + "</li>";
+    colorDisplay.innerHTML += "<li>" + wordCol + "</li>";
+    
+  }
 
 }
-
-
 
 
 function setup() {

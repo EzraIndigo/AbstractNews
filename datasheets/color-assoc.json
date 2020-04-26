@@ -1,0 +1,642 @@
+[
+    {
+      "Word": "afraid",
+      "Color": "Black"
+    },
+    {
+      "Word": "agony",
+      "Color": "Black"
+    },
+    {
+      "Word": "angry",
+      "Color": "Red"
+    },
+    {
+      "Word": "anguished",
+      "Color": "Red"
+    },
+    {
+      "Word": "contempt",
+      "Color": "Red"
+    },
+    {
+      "Word": "cruel",
+      "Color": "Red"
+    },
+    {
+      "Word": "depressed",
+      "Color": "Blue"
+    },
+    {
+      "Word": "discouraged",
+      "Color": "Blue"
+    },
+    {
+      "Word": "disgusted",
+      "Color": "Green"
+    },
+    {
+      "Word": "dreadful",
+      "Color": "Black"
+    },
+    {
+      "Word": "embarrassed",
+      "Color": "Red"
+    },
+    {
+      "Word": "enraged",
+      "Color": "Red"
+    },
+    {
+      "Word": "fear",
+      "Color": "Red"
+    },
+    {
+      "Word": "frustrated",
+      "Color": "Red"
+    },
+    {
+      "Word": "guilty",
+      "Color": "Red"
+    },
+    {
+      "Word": "helpless",
+      "Color": "Black"
+    },
+    {
+      "Word": "hostile",
+      "Color": "Red"
+    },
+    {
+      "Word": "jealousy",
+      "Color": "Green"
+    },
+    {
+      "Word": "lonely",
+      "Color": "Blue"
+    },
+    {
+      "Word": "mad",
+      "Color": "Red"
+    },
+    {
+      "Word": "misery",
+      "Color": "Black"
+    },
+    {
+      "Word": "moody",
+      "Color": "Blue"
+    },
+    {
+      "Word": "nervous",
+      "Color": "Red"
+    },
+    {
+      "Word": "panic",
+      "Color": "Red"
+    },
+    {
+      "Word": "rage",
+      "Color": "Red"
+    },
+    {
+      "Word": "regretful",
+      "Color": "Red"
+    },
+    {
+      "Word": "sad",
+      "Color": "Blue"
+    },
+    {
+      "Word": "scared",
+      "Color": "Red"
+    },
+    {
+      "Word": "shamed",
+      "Color": "Red"
+    },
+    {
+      "Word": "suspicious",
+      "Color": "Red"
+    },
+    {
+      "Word": "tense",
+      "Color": "Red"
+    },
+    {
+      "Word": "terrified",
+      "Color": "Red"
+    },
+    {
+      "Word": "troubled",
+      "Color": "Red"
+    },
+    {
+      "Word": "unhappy",
+      "Color": "Blue"
+    },
+    {
+      "Word": "upset",
+      "Color": "Blue"
+    },
+    {
+      "Word": "abduction",
+      "Color": "Black"
+    },
+    {
+      "Word": "abortion",
+      "Color": "Red"
+    },
+    {
+      "Word": "abuse",
+      "Color": "Red"
+    },
+    {
+      "Word": "bees",
+      "Color": "Yellow"
+    },
+    {
+      "Word": "bloody",
+      "Color": "Red"
+    },
+    {
+      "Word": "burial",
+      "Color": "Black"
+    },
+    {
+      "Word": "cancer",
+      "Color": "Black"
+    },
+    {
+      "Word": "cemetery",
+      "Color": "Black"
+    },
+    {
+      "Word": "coffin",
+      "Color": "Brown"
+    },
+    {
+      "Word": "corpse",
+      "Color": "Black"
+    },
+    {
+      "Word": "crash",
+      "Color": "Red"
+    },
+    {
+      "Word": "criminal",
+      "Color": "Black"
+    },
+    {
+      "Word": "crisis",
+      "Color": "Red"
+    },
+    {
+      "Word": "danger",
+      "Color": "Red"
+    },
+    {
+      "Word": "dead",
+      "Color": "Black"
+    },
+    {
+      "Word": "death",
+      "Color": "Black"
+    },
+    {
+      "Word": "demon",
+      "Color": "Red"
+    },
+    {
+      "Word": "disaster",
+      "Color": "Black"
+    },
+    {
+      "Word": "divorce",
+      "Color": "Black"
+    },
+    {
+      "Word": "funeral",
+      "Color": "Black"
+    },
+    {
+      "Word": "gun",
+      "Color": "Black"
+    },
+    {
+      "Word": "hell",
+      "Color": "Red"
+    },
+    {
+      "Word": "illness",
+      "Color": "Green"
+    },
+    {
+      "Word": "infection",
+      "Color": "Red"
+    },
+    {
+      "Word": "injury",
+      "Color": "Red"
+    },
+    {
+      "Word": "insult",
+      "Color": "Red"
+    },
+    {
+      "Word": "jail",
+      "Color": "Gray"
+    },
+    {
+      "Word": "killer",
+      "Color": "Red"
+    },
+    {
+      "Word": "lie",
+      "Color": "Black"
+    },
+    {
+      "Word": "massacre",
+      "Color": "Red"
+    },
+    {
+      "Word": "morbid",
+      "Color": "Black"
+    },
+    {
+      "Word": "nightmare",
+      "Color": "Black"
+    },
+    {
+      "Word": "pain",
+      "Color": "Red"
+    },
+    {
+      "Word": "poison",
+      "Color": "Black"
+    },
+    {
+      "Word": "pollute",
+      "Color": "Gray"
+    },
+    {
+      "Word": "poverty",
+      "Color": "Black"
+    },
+    {
+      "Word": "punishment",
+      "Color": "Red"
+    },
+    {
+      "Word": "rape",
+      "Color": "Red"
+    },
+    {
+      "Word": "robber",
+      "Color": "Black"
+    },
+    {
+      "Word": "sick",
+      "Color": "Green"
+    },
+    {
+      "Word": "sickness",
+      "Color": "Green"
+    },
+    {
+      "Word": "slave",
+      "Color": "Black"
+    },
+    {
+      "Word": "suicide",
+      "Color": "Red"
+    },
+    {
+      "Word": "tomb",
+      "Color": "Black"
+    },
+    {
+      "Word": "toothache",
+      "Color": "White"
+    },
+    {
+      "Word": "tornado",
+      "Color": "Gray"
+    },
+    {
+      "Word": "tragedy",
+      "Color": "Red"
+    },
+    {
+      "Word": "trash",
+      "Color": "Black"
+    },
+    {
+      "Word": "trauma",
+      "Color": "Red"
+    },
+    {
+      "Word": "ugly",
+      "Color": "Brown"
+    },
+    {
+      "Word": "ulcer",
+      "Color": "Red"
+    },
+    {
+      "Word": "unfaithful",
+      "Color": "Black"
+    },
+    {
+      "Word": "victim",
+      "Color": "Red"
+    },
+    {
+      "Word": "violent",
+      "Color": "Red"
+    },
+    {
+      "Word": "war",
+      "Color": "Red"
+    },
+    {
+      "Word": "admired",
+      "Color": "Red"
+    },
+    {
+      "Word": "affection",
+      "Color": "Red"
+    },
+    {
+      "Word": "aroused",
+      "Color": "Red"
+    },
+    {
+      "Word": "astonished",
+      "Color": "Yellow"
+    },
+    {
+      "Word": "beautiful",
+      "Color": "Pink"
+    },
+    {
+      "Word": "brave",
+      "Color": "Red"
+    },
+    {
+      "Word": "cheer",
+      "Color": "Yellow"
+    },
+    {
+      "Word": "confident",
+      "Color": "Red"
+    },
+    {
+      "Word": "elated",
+      "Color": "Yellow"
+    },
+    {
+      "Word": "friendly",
+      "Color": "Yellow"
+    },
+    {
+      "Word": "grateful",
+      "Color": "Blue"
+    },
+    {
+      "Word": "happy",
+      "Color": "Yellow"
+    },
+    {
+      "Word": "hopeful",
+      "Color": "Blue"
+    },
+    {
+      "Word": "inspired",
+      "Color": "Yellow"
+    },
+    {
+      "Word": "joy",
+      "Color": "Yellow"
+    },
+    {
+      "Word": "joyful",
+      "Color": "Yellow"
+    },
+    {
+      "Word": "kind",
+      "Color": "Yellow"
+    },
+    {
+      "Word": "love",
+      "Color": "Red"
+    },
+    {
+      "Word": "lust",
+      "Color": "Red"
+    },
+    {
+      "Word": "merry",
+      "Color": "Red"
+    },
+    {
+      "Word": "nice",
+      "Color": "Yellow"
+    },
+    {
+      "Word": "passion",
+      "Color": "Red"
+    },
+    {
+      "Word": "proud",
+      "Color": "Blue"
+    },
+    {
+      "Word": "relaxed",
+      "Color": "Blue"
+    },
+    {
+      "Word": "safe",
+      "Color": "White"
+    },
+    {
+      "Word": "satisfied",
+      "Color": "Blue"
+    },
+    {
+      "Word": "secure",
+      "Color": "Blue"
+    },
+    {
+      "Word": "surprised",
+      "Color": "Red"
+    },
+    {
+      "Word": "triumphant",
+      "Color": "Yellow"
+    },
+    {
+      "Word": "achievement",
+      "Color": "Blue"
+    },
+    {
+      "Word": "adorable",
+      "Color": "Pink"
+    },
+    {
+      "Word": "baby",
+      "Color": "Pink"
+    },
+    {
+      "Word": "birthday",
+      "Color": "Blue"
+    },
+    {
+      "Word": "bouquet",
+      "Color": "Red"
+    },
+    {
+      "Word": "cash",
+      "Color": "Green"
+    },
+    {
+      "Word": "champion",
+      "Color": "Gold"
+    },
+    {
+      "Word": "church",
+      "Color": "White"
+    },
+    {
+      "Word": "diamond",
+      "Color": "White"
+    },
+    {
+      "Word": "diploma",
+      "Color": "White"
+    },
+    {
+      "Word": "engaged",
+      "Color": "White"
+    },
+    {
+      "Word": "freedom",
+      "Color": "White"
+    },
+    {
+      "Word": "friend",
+      "Color": "Yellow"
+    },
+    {
+      "Word": "gift",
+      "Color": "Blue"
+    },
+    {
+      "Word": "god",
+      "Color": "White"
+    },
+    {
+      "Word": "grin",
+      "Color": "White"
+    },
+    {
+      "Word": "heaven",
+      "Color": "White"
+    },
+    {
+      "Word": "holiday",
+      "Color": "Red"
+    },
+    {
+      "Word": "jewel",
+      "Color": "Red"
+    },
+    {
+      "Word": "joke",
+      "Color": "Yellow"
+    },
+    {
+      "Word": "kiss",
+      "Color": "Red"
+    },
+    {
+      "Word": "laughter",
+      "Color": "Yellow"
+    },
+    {
+      "Word": "lucky",
+      "Color": "Green"
+    },
+    {
+      "Word": "millionaire",
+      "Color": "Green"
+    },
+    {
+      "Word": "miracle",
+      "Color": "White"
+    },
+    {
+      "Word": "money",
+      "Color": "Green"
+    },
+    {
+      "Word": "outdoors",
+      "Color": "Green"
+    },
+    {
+      "Word": "peace",
+      "Color": "White"
+    },
+    {
+      "Word": "pretty",
+      "Color": "Pink"
+    },
+    {
+      "Word": "rescue",
+      "Color": "Red"
+    },
+    {
+      "Word": "riches",
+      "Color": "Green"
+    },
+    {
+      "Word": "romantic",
+      "Color": "Red"
+    },
+    {
+      "Word": "thrill",
+      "Color": "Red"
+    },
+    {
+      "Word": "treasure",
+      "Color": "Gold"
+    },
+    {
+      "Word": "triumph",
+      "Color": "Yellow"
+    },
+    {
+      "Word": "trophy",
+      "Color": "Gold"
+    },
+    {
+      "Word": "vacation",
+      "Color": "Blue"
+    },
+    {
+      "Word": "victory",
+      "Color": "Red"
+    },
+    {
+      "Word": "waterfall",
+      "Color": "Blue"
+    },
+    {
+      "Word": "wedding",
+      "Color": "White"
+    },
+    {
+      "Word": "wish",
+      "Color": "White"
+    }
+   ]

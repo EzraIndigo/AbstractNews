@@ -24,6 +24,13 @@ h2 {
 }
 
 
+#table {
+  margin-left: 3%;
+  position: absolute;
+  float: left;
+  top: 800px;
+
+}
 
 #result {
   margin-bottom: -1%;
@@ -41,6 +48,88 @@ h2 {
   border-top: none;
 
   
+}
+
+#headlineBreakdown {
+  border-left: 10px solid #d65d5d;
+  position: absolute;
+  width: 1000px;
+  height: 430px;
+  top: 690px;
+  left: 25px;
+  background-color: rgb(247, 247, 247);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.3); 
+  box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.3);
+}
+
+#word-info {
+  max-width: 500px;
+  overflow: auto;
+  list-style-type: none;
+  padding: 3px;
+  position: absolute;
+  margin-left: 5%;
+
+}
+
+#word-info h2 {
+  margin-left: -2%;
+}
+
+#word-info li {
+  width: auto;
+  max-width: 100px;
+  padding: 5px;
+  background-color: white;
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.3); 
+  box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.3);
+
+}
+
+
+#score-info {
+  max-width: 500px;
+  overflow: auto;
+  list-style-type: none;
+  padding: 3px;
+  position: absolute;
+  margin-left: 5%;
+  top: 70px;
+  left: 150px;
+
+}
+
+#score-info h2 {
+  margin-left: -5%;
+}
+
+#score-info li {
+  background-color: white;
+  padding: 5px;
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.3); 
+  box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.3);
+}
+
+#word-color-info {
+  max-width: 500px;
+  overflow: auto;
+  list-style-type: none;
+  padding: 3px;
+  position: absolute;
+  margin-left: 5%;
+  top: 70px;
+  left: 250px;
+}
+
+#word-color-info li {
+  background-color: white;
+  padding: 5px;
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.3); 
+  box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.3);
+}
+
+#word-color-info h2 {
+  margin-left: -2%;
 }
 
 
@@ -68,16 +157,7 @@ ul:hover {
   float: left;
 }
 
-#headline {
-  margin-top: -2%;
-  width: 101%;
-  text-align: left;
-  height: 65px;
-  border-left: 50px solid #d65d5d;
-  background-color: white;
-  -webkit-box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.2); 
-  box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.2);
-}
+
 
 #drawing {
   text-align: center;
@@ -91,10 +171,10 @@ ul:hover {
 }
 
 .p5Canvas {
-  max-width: 800x;
-  overflow: auto;
+  position: relative;
+  max-width: 800px;
+  overflow: none;
   float: right;
-  z-index: 1;
   margin-top: 5%;
   margin-left: auto;
   margin-right: 5%;
