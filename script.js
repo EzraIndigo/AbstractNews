@@ -1,4 +1,5 @@
 
+
 function reload(e) {
   //-------handle list UI Color onclick
  var listElems =  document.getElementsByClassName("news");
@@ -15,19 +16,3 @@ function reload(e) {
 
 
 
-function setup() {
-
-  createCanvas(500, 500);
-  var canvasID = document.getElementById("defaultCanvas0");
-  var wrapper = document.createElement('div');
-  wrapper.id = "canvasWrapper";
-
-  canvasID.parentNode.insertBefore(wrapper, canvasID);
-  wrapper.appendChild(canvasID);
-
-
-}
-
-function draw() {
-    background(230);
-}

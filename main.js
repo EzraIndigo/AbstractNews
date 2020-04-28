@@ -1,8 +1,7 @@
 
 const mlSentiment = require("ml");
 const sentiment = mlSentiment({lang: 'en'}); // added this line
-let test = sentiment.classify(`I am so happy!!!!`);
-console.log(test);
+
 var  longword = "";
 var AFFIN_Data = AFFIN;
 var CurrentWordBreakdown = "";
@@ -15,6 +14,7 @@ var url = 'http://newsapi.org/v2/top-headlines?' +
 var topHeadLines = [];
 var listLoad = false;
 
+
 const gotNews = (newsData) => {
   newsData.articles.forEach((article) => {
   topHeadLines.push(article.title);
@@ -24,6 +24,10 @@ const gotNews = (newsData) => {
 }
 
 
+fetch(url)
+  .then(response => response.json())
+  .then(gotNews);
+
 
 function displayNewsHeadlines() {
   document.getElementById("headlines").innerHTML = "<h2> News Headlines </h2>";
@@ -31,8 +35,9 @@ function displayNewsHeadlines() {
     document.getElementById("headlines").innerHTML += "<ul id = 'list' class = 'news'>"+ topHeadLines[i] +"</ul>";
     document.getElementById("list").style.color = "rgb(214, 93, 93)";
   }
-  document.getElementById("headlines").innerHTML += "<ul id = 'result' class = 'news'>Semantic Score: </ul>";
+  document.getElementById("headlines").innerHTML += "<ul id = 'result' class = 'news'>Single Word Sum Score: </ul>" + "<ul id = 'result-ml' class = 'news'>ml-sentiment.js sentence Score </ul>";
   document.getElementById("headlines").innerHTML += "<ul id = 'result-semantic'>Loading...</ul>";
+  document.getElementById("headlines").innerHTML += "<ul id = 'result-semantic-ml'>Loading...</ul>";
   longword = (topHeadLines[0]);
   setupWord(topHeadLines[0]);
   
@@ -209,8 +214,9 @@ function displayScore(finalScore) {
       document.getElementById("result-semantic").innerHTML = "Very Negative!(-6)";
     }
   }
-  //document.getElementById("result-semantic").innerHTML = score;
+  document.getElementById("result-semantic-ml").innerHTML = sentiment.classify(longword);
 }
+
 
 function displayWordBreakdown() {
   console.log(CurrentWordBreakdown);
@@ -229,11 +235,15 @@ function displayWordBreakdown() {
     scoreDisplay.innerHTML += "<li>" + finalScore[i] + "</li>";
     colorDisplay.innerHTML += "<li>" + wordCol + "</li>";
     
+
+    
   }
+  mlDisplay.innerHTML = "<strong> ml-sentiment Score:  </strong>" + sentiment.classify(longword);
+  retrieve(longword);
 
 }
 
-fetch(url)
-  .then(response => response.json())
-  .then(gotNews)
+
+
+//--------------------
 

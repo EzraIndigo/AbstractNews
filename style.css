@@ -50,11 +50,35 @@ h2 {
   
 }
 
+
+
+#result-ml {
+  top: 527px;
+  position: absolute;
+  left: 200px;
+
+  font-size: 20px;
+  width: 160px;
+  border: 3px solid #575757;
+  border-bottom: none;
+}
+
+#result-semantic-ml {
+  top: 590px;
+  position: absolute;
+  left: 200px;
+  font-size: 20px;
+  width: 160px;
+  border: 3px solid #575757;
+  border-top: none;
+
+}
+
 #headlineBreakdown {
   border-left: 10px solid #d65d5d;
   position: absolute;
   width: 1000px;
-  height: 430px;
+  height: 520px;
   top: 695px;
   left: 25px;
   background-color: rgb(247, 247, 247);
@@ -67,7 +91,7 @@ h2 {
   overflow: auto;
   list-style-type: none;
   padding: 3px;
-  top: 75px;
+  top: 100px;
   position: absolute;
   margin-left: 5%;
 
@@ -96,7 +120,7 @@ h2 {
   padding: 3px;
   position: absolute;
   margin-left: 5%;
-  top: 75px;
+  top: 100px;
   left: 125px;
 
 }
@@ -119,7 +143,7 @@ h2 {
   padding: 3px;
   position: absolute;
   margin-left: 5%;
-  top: 75px;
+  top: 100px;
   left: 220px;
 }
 
@@ -135,14 +159,12 @@ h2 {
 }
 
 #mlScore {
-  max-width: 500px;
-  overflow: auto;
   list-style-type: none;
   padding: 3px;
   position: absolute;
   margin-left: 5%;
-  top: 75px;
-  left: 320px;
+  top: 72px;
+  left: 0px;
 }
 
 
