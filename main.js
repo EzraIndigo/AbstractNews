@@ -239,10 +239,19 @@ function displayWordBreakdown() {
     
   }
   mlDisplay.innerHTML = "<strong> ml-sentiment Score:  </strong>" + sentiment.classify(longword);
-  retrieve(longword);
+  passToDraw();
 
 }
 
+function passToDraw() {
+  var colSet = [];
+  for (i = 0; i < finalWords.length; i++) {
+      var curentCol = getWordPrimaryColor(finalWords[i]);
+      colSet.push(curentCol);
+  }
+  retrieve(longword, finalScore, finalWords, colSet, sentiment);
+
+}
 
 
 //--------------------

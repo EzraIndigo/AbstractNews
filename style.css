@@ -53,10 +53,9 @@ h2 {
 
 
 #result-ml {
-  top: 527px;
+  top: 509px;
   position: absolute;
   left: 200px;
-
   font-size: 20px;
   width: 160px;
   border: 3px solid #575757;
@@ -64,7 +63,7 @@ h2 {
 }
 
 #result-semantic-ml {
-  top: 590px;
+  top: 571px;
   position: absolute;
   left: 200px;
   font-size: 20px;
@@ -79,7 +78,7 @@ h2 {
   position: absolute;
   width: 1000px;
   height: 520px;
-  top: 695px;
+  top: 675px;
   left: 25px;
   background-color: rgb(247, 247, 247);
   -webkit-box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.3); 
