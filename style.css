@@ -51,9 +51,8 @@ h2 {
 }
 
 
-
 #result-ml {
-  top: 509px;
+  top: 490px;
   position: absolute;
   left: 200px;
   font-size: 20px;
@@ -63,7 +62,7 @@ h2 {
 }
 
 #result-semantic-ml {
-  top: 571px;
+  top: 551px;
   position: absolute;
   left: 200px;
   font-size: 20px;

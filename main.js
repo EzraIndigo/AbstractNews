@@ -197,7 +197,8 @@ var semantic_range_set = [
 
 function displayScore(finalScore) {
   var score = 0;
-  console.log(finalScore);
+
+  passToDraw();
   displayWordBreakdown();
   for(i = 0; i < finalScore.length; i++) {
     score = score + finalScore[i];
@@ -239,7 +240,7 @@ function displayWordBreakdown() {
     
   }
   mlDisplay.innerHTML = "<strong> ml-sentiment Score:  </strong>" + sentiment.classify(longword);
-  passToDraw();
+  
 
 }
 
@@ -250,7 +251,7 @@ function passToDraw() {
       colSet.push(curentCol);
   }
   retrieve(longword, finalScore, finalWords, colSet, sentiment);
-
+  console.log(finalScore);
 }
 
 
