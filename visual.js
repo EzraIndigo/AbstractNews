@@ -35,7 +35,7 @@ function retrieve(longword, finalScore, finalWords, colSet, sentiment) {
 
     }
    // createParts(finalWords);
-   shapeStarter(finalWords);
+   shapeStarter(finalWords, finalScore);
 }
 
 
@@ -83,32 +83,111 @@ function setup() {
 
 flag = true;
 var sentence;
-function shapeStarter(finalWords) {
+var scores;
+var allShapes = [];
+function shapeStarter(finalWords, finalScore) {
+    allShapes = [];
+    scores = finalScore;
     sentence = finalWords;
+    for(i = 0; i < sentence.length; i++) {
+        
+        
+
+    }
+    console.log(allShapes);
    if(finalWords.length > 0) { start = true; }
     if (flag == false) { start = false;}
+
+
+
 }
+
+
+
+
+
+
+function ShapeNegative() {
+
+    randomSetPositive = [];
+    randomSetNegative = [];
+    for(i = 0; i < 6; i++) {
+        
+    }
+
+    this.show() = function() {
+        strokeWeight(random(2, 4));
+        stroke(negativeCols[Math.floor(Math.random() * negativeCols.length)]);
+        noFill();
+        beginShape();
+        curveVertex(random(0, 50), random(0, 50));
+        curveVertex(random(0, 50), random(0, 50));
+        curveVertex(random(50, 150), random(50, 150));
+        curveVertex(random(-100, -150), random(-50, -150));
+        curveVertex(random(-25, 150), random(-50, 250));
+        curveVertex(random(-250, 150), random(-50, -150));
+        curveVertex(random(-250, 150), random(-50, -250));
+        endShape();
+    }
+}
+
+function ShapePositive() {
+      
+        strokeWeight(random(4, 7));
+        stroke(positiveCols[Math.floor(Math.random() * positiveCols.length)]);
+        noFill();
+        beginShape();
+        curveVertex(random(0, 50), random(0, 50));
+        curveVertex(random(0, 50), random(0, 50));
+        curveVertex(random(50, 150), random(50, 150));
+        curveVertex(random(50, 150), random(50, 150));
+        curveVertex(random(50, 150), random(50, 150));
+        curveVertex(random(50, 150), random(50, 150));
+        endShape();
+}
+
+function ShapeNeut() {
+        strokeWeight(2);
+        stroke("#FCFCFC");
+        noFill();
+        curveVertex(-250, 250);
+        curveVertex(-240, 210);
+        curveVertex(-200, 180);
+        curveVertex(-170, 150);
+        curveVertex(-130, 110);
+        curveVertex(-50, 70);
+        curveVertex(130, -110);
+        endShape();
+    
+}
+
+
+
+
 
 
 function draw() {
     background(bgCol);
     if (start) {
-        for (let i = 0; i < sentence.length; i++) {
-            stroke(255);
-            noFill();
-            beginShape();
-            curveVertex(150, 250);
-            curveVertex(250, 250);
-            curveVertex(150, 450);
-            curveVertex(350, 150);
-            curveVertex(150, 250);
-            endShape();
+        
+        for(k = 0; k < allShapes.length; k++) {
+          //  console.log(allShapes[k])
+        beginShape();
+          allShapes[k];
+          endShape();
+        
         }
-       // start = false;
+       
+        
+
     }
 
 
 }
+
+
+
+
 
 
   function processData() {

@@ -12,20 +12,7 @@ function Particle(x, y, dx, dy, shapeRadius) {
 
     this.update = function() {
    
-        this.x += 1
-        this.y += 2
-        
-    
 
-      var vec = createVector(this.x, this.y)
-      this.history.push(vec);
-      
-      this.x = constrain(this.x, 0, width);
-      this.y = constrain(this.y, 0, height);
-
-      if (this.history.length > 100) {
-          this.history.splice(0, 1);
-      }
 
     };
   
