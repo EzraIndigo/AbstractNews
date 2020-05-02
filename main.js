@@ -7,7 +7,7 @@ var AFFIN_Data = AFFIN;
 var CurrentWordBreakdown = "";
 var api_key = "8364efe72c45415ca3d8a56cadb815f4";
 //URL api from google
-var url = 'http://newsapi.org/v2/top-headlines?' +
+var url = 'https://newsapi.org/v2/top-headlines?' +
           'sources=bbc-news&' +
           'apiKey=' + api_key;
 
