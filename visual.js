@@ -6,8 +6,8 @@ var sentiment;
 let bgCol = "#FCFCFC";
 var start = false;
 
-const positiveCols = ["#ad0707", "#782e2e", "#78552e", "#4a461f", "#3c422f", "#334236", "#1b2e29", "#2c262e", "#363636", "#0a0a0a"];
-const negativeCols = ["#e66a40", "#e6af40",  "#e4e67a", "#c4e67a", "#a3e371", "#9aedae", "#9aeddc", "#9ad0ed", "#a19aed", "#ca9aed", "#fa9dc7" ];
+const negativeCols = ["#ad0707", "#782e2e", "#78552e", "#4a461f", "#3c422f", "#334236", "#1b2e29", "#2c262e", "#363636", "#0a0a0a"];
+const positiveCols = ["#e66a40", "#e6af40",  "#e4e67a", "#c4e67a", "#a3e371", "#9aedae", "#9aeddc", "#9ad0ed", "#a19aed", "#ca9aed", "#fa9dc7" ];
 
 //scope issues means this needs to be the constructor with data passed from main.js
 function retrieve(longword, finalScore, finalWords, colSet, sentiment) {
@@ -21,11 +21,11 @@ function retrieve(longword, finalScore, finalWords, colSet, sentiment) {
         score = score + finalScore[i];
       }
 
-    if (score > 0) {
+    if (score < 0) {
         bgCol = negativeCols[Math.floor(Math.random()*negativeCols.length)];
 
     }
-    else if (score < 0) {
+    else if (score > 0) {
         bgCol = positiveCols[Math.floor(Math.random()*positiveCols.length)];
 
 
@@ -35,7 +35,8 @@ function retrieve(longword, finalScore, finalWords, colSet, sentiment) {
 
     }
    // createParts(finalWords);
-   shapeStarter(finalWords, finalScore);
+   var wholeScore = sentiment.classify(longword);
+   shapeStarter(finalWords, finalScore, wholeScore, colSet);
 }
 
 
@@ -85,16 +86,64 @@ flag = true;
 var sentence;
 var scores;
 var allShapes = [];
-function shapeStarter(finalWords, finalScore) {
+
+function shapeStarter(finalWords, finalScore, wholeScore) {
     allShapes = [];
     scores = finalScore;
     sentence = finalWords;
+    wholeScore = wholeScore;
+ 
     for(i = 0; i < sentence.length; i++) {
-        
-        
 
-    }
-    console.log(allShapes);
+        if (wholeScore < 0) {
+       allShapes.push(
+           new ShapeNegative(
+               random(10, 450), 
+               random(10, 450), 
+               random(10, 450), 
+               random(10, 450), 
+               random(10, 450), 
+               random(10, 450),
+               negativeCols[Math.floor(Math.random()*negativeCols.length)]
+               ));
+           }
+           else if (wholeScore > 0) {
+            allShapes.push(
+                new ShapePositive(
+                    random(10, 450), 
+                    random(10, 450), 
+                    random(10, 450), 
+                    random(10, 450), 
+                    random(10, 450), 
+                    random(10, 450),
+                    positiveCols[Math.floor(Math.random()*positiveCols.length)]
+                    ));
+           }
+           else{
+            
+            var ncol = "";
+            if (i % 2) {
+                  ncol = "#cfc8ce";  
+            }
+            else {  ncol = "#dbb172";
+        }
+            allShapes.push(
+                new ShapeNeut(
+                    random(10, 450), 
+                    random(50, 350), 
+                    random(50, 350), 
+                    random(100, 450), 
+                    random(100, 450), 
+                    random(100, 650),
+                    
+                    ncol));
+                }
+                
+           }
+
+          
+    
+  //  console.log(allShapes);
    if(finalWords.length > 0) { start = true; }
     if (flag == false) { start = false;}
 
@@ -107,58 +156,72 @@ function shapeStarter(finalWords, finalScore) {
 
 
 
-function ShapeNegative() {
+function ShapeNegative(x1, x2, x3, y1, y2, y3, col) {
+this.x1 = x1; 
+this.x2 = x2;
+this.x3 = x3;
+this.y1 = y1;
+this.y2 = y2;
+this.y3 = y3;
+this.col = col;
 
-    randomSetPositive = [];
-    randomSetNegative = [];
-    for(i = 0; i < 6; i++) {
-        
-    }
 
-    this.show() = function() {
-        strokeWeight(random(2, 4));
-        stroke(negativeCols[Math.floor(Math.random() * negativeCols.length)]);
+    this.show = function() {
+        strokeWeight(random(3, 5));
+        stroke(col);
         noFill();
         beginShape();
-        curveVertex(random(0, 50), random(0, 50));
-        curveVertex(random(0, 50), random(0, 50));
-        curveVertex(random(50, 150), random(50, 150));
-        curveVertex(random(-100, -150), random(-50, -150));
-        curveVertex(random(-25, 150), random(-50, 250));
-        curveVertex(random(-250, 150), random(-50, -150));
-        curveVertex(random(-250, 150), random(-50, -250));
+        vertex(x1, y1);
+        vertex(y1, x2);
+        vertex(x2, y2);
+        vertex(y2, x3);
+        vertex(x3, y3);
         endShape();
-    }
+    };
 }
 
-function ShapePositive() {
-      
-        strokeWeight(random(4, 7));
-        stroke(positiveCols[Math.floor(Math.random() * positiveCols.length)]);
+function ShapePositive(x1, x2, x3, y1, y2, y3, col) {
+this.x1 = x1; 
+this.x2 = x2;
+this.x3 = x3;
+this.y1 = y1;
+this.y2 = y2;
+this.y3 = y3;
+this.col = col;
+      this.show = function() {
+        strokeWeight(random(5, 10));
+        stroke(col);
         noFill();
         beginShape();
-        curveVertex(random(0, 50), random(0, 50));
-        curveVertex(random(0, 50), random(0, 50));
-        curveVertex(random(50, 150), random(50, 150));
-        curveVertex(random(50, 150), random(50, 150));
-        curveVertex(random(50, 150), random(50, 150));
-        curveVertex(random(50, 150), random(50, 150));
+        curveVertex(x1, y1);
+        curveVertex(y1, x2);
+        curveVertex(x2, y2);
+        curveVertex(y2, x3);
+        curveVertex(x3, y3);
         endShape();
+      }
 }
 
-function ShapeNeut() {
-        strokeWeight(2);
-        stroke("#FCFCFC");
+function ShapeNeut(x1, x2, x3, y1, y2, y3, col) {
+    this.x1 = x1; 
+    this.x2 = x2;
+    this.x3 = x3;
+    this.y1 = y1;
+    this.y2 = y2;
+    this.y3 = y3;
+    this.col = col;
+
+    this.show = function() {   
+    strokeWeight(5);
+        stroke(col);
         noFill();
-        curveVertex(-250, 250);
-        curveVertex(-240, 210);
-        curveVertex(-200, 180);
-        curveVertex(-170, 150);
-        curveVertex(-130, 110);
-        curveVertex(-50, 70);
-        curveVertex(130, -110);
+        beginShape();
+        curveVertex(x1, y1);
+        curveVertex(y1, x2);
+        curveVertex(y2, x3);
+        curveVertex(x3, y3);
         endShape();
-    
+    }
 }
 
 
@@ -170,14 +233,11 @@ function draw() {
     background(bgCol);
     if (start) {
         
-        for(k = 0; k < allShapes.length; k++) {
-          //  console.log(allShapes[k])
-        beginShape();
-          allShapes[k];
-          endShape();
         
+        for(i = 0; i < sentence.length; i++) {
+            allShapes[i].show();
         }
-       
+
         
 
     }
