@@ -96,6 +96,7 @@ function shapeStarter(finalWords, finalScore, wholeScore) {
     for(i = 0; i < sentence.length; i++) {
 
         if (wholeScore < 0) {
+
        allShapes.push(
            new ShapeNegative(
                random(10, 450), 
