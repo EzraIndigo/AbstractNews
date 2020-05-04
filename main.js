@@ -30,6 +30,14 @@ fetch(url)
 
 
 function displayNewsHeadlines() {
+  if (typeof topHeadLines[0] == 'undefined') {
+    topHeadLines.push("World leaders pledge billions for vaccine fight");
+    topHeadLines.push("Don Shula: Miami Dolphins Super Bowl-winning head coach dies, aged 90");
+    topHeadLines.push("Malaria 'completely stopped' by microbe");
+    topHeadLines.push("Test Headline");
+    topHeadLines.push("Test Headline");
+    topHeadLines.push("Test Headline");
+  }
   document.getElementById("headlines").innerHTML = "<h2> News Headlines </h2>";
   for(i = 0; i < topHeadLines.length-3; i++) {
     document.getElementById("headlines").innerHTML += "<ul id = 'list' class = 'news'>"+ topHeadLines[i] +"</ul>";
